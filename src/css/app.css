@@ -1,0 +1,9 @@
+body {
+  max-width: 900px;
+  margin: 8vh auto;
+  background-image: url("../img/mooning.png");
+  color: #3f3844;
+  font-family: monospace;
+  font-size: large;
+}
+
