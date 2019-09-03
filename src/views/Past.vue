@@ -60,3 +60,9 @@ export default {
   name: "Past"
 };
 </script>
+
+<style>
+ul {
+  list-style-position: inside;
+}
+</style>
