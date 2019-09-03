@@ -1,19 +1,15 @@
 <template>
   <div id="main">
     <v-container>
-      <v-row
-        class="mb-6"
-        no-gutters
-      >
-
-        <v-col :cols=4>
+      <v-row class="mb-6" no-gutters>
+        <v-col :cols="3">
           <div id="nav">
             <router-link to="/">Home</router-link> |
             <router-link to="/about">About</router-link>
           </div>
         </v-col>
 
-        <v-col :cols=auto>
+        <v-col :cols="auto">
           <router-view />
         </v-col>
       </v-row>
