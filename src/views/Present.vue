@@ -35,7 +35,7 @@
       I'm a proud member of the
       <a href="https://www.southparkcommons.com">South Park Commons</a>, a
       community of ambitious technologists focused on being deliberate about
-      what we work on.
+      what to work on next.
     </p>
 
     <br />
