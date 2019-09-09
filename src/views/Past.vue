@@ -11,44 +11,53 @@
 
     <ul>
       <li>
-        2019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--
+        2019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong
+          >:</strong
+        >
         running the SF marathon
       </li>
       <li>
-        2017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--
+        2017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong
+          >:</strong
+        >
         traveling solo without a plan in SE Asia for 3 months
       </li>
       <li>
-        2010-2011 -- co-organizing
+        2010-2011 <strong>:</strong> co-organizing
         <a href="https://www.youtube.com/watch?v=wkT4QmYkG9g"
           >one of the biggest freestyle hip-hop events</a
         >
         in Boston.
       </li>
       <li>
-        2006-2008 -- contributing to the search for gravitational waves at
+        2006-2008 <strong>:</strong> contributing to the search for
+        gravitational waves at
         <a href="https://www.ligo.org">LIGO</a>
       </li>
       <li>
-        2007-2011 -- studying Physics and Computer Science at
+        2007-2011 <strong>:</strong> studying Physics and Computer Science at
         <a href="http://web.mit.edu/">MIT</a>
       </li>
       <li>
-        2017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--
+        2017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong
+          >:</strong
+        >
         building a product from idea to $50k MRR within 5 months at
         <a href="https://angel.co">AngelList</a>
       </li>
       <li>
-        2015-2016 -- working on a
+        2015-2016 <strong>:</strong> working on a
         <a href="https://liftoff.io">machine learning system</a> which made
         ~600k decisions/second
       </li>
       <li>
-        2011-2012 -- co-founding and selling an
+        2011-2012 <strong>:</strong> co-founding and selling an
         <a href="https://braingenie.ck12.org">education technology startup</a>
       </li>
       <li>
-        2017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--
+        2017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong
+          >:</strong
+        >
         canoe camping down the Green River in Southern Utah for a week
       </li>
     </ul>

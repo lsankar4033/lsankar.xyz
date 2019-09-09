@@ -13,7 +13,7 @@
     <v-container>
       <v-row v-for="project of projects" v-bind:key="project.name">
         <v-col :cols="2">
-          <img v-bind:src="project.img" width="100" />
+          <img class="project-img" v-bind:src="project.img" width="100px" />
         </v-col>
 
         <v-col :cols="10">
@@ -110,3 +110,11 @@ export default {
   }
 };
 </script>
+
+<style>
+@media (max-width: 768px) {
+  .project-img {
+    width: 50px;
+  }
+}
+</style>
