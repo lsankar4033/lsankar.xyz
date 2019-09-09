@@ -2,30 +2,43 @@
   <div id="main">
     <v-container>
       <v-row class="mb-6" no-gutters>
-        <v-col :cols="3">
-          <div id="nav">
-            <router-link to="/">
-              <h2>Lakshman Sankar</h2>
-            </router-link>
-            -------------------------
+        <v-col class="nav" id="desktop-nav" :cols="3">
+          <router-link to="/">
+            <h2>Lakshman Sankar</h2>
+          </router-link>
 
-            <br />
-            <br />
+          <br />
 
-            <router-link to="/">Present</router-link>
+          <router-link to="/">Present</router-link>
 
-            <br />
-            -
-            <br />
+          <br />
+          -
+          <br />
 
-            <router-link to="/past">Past</router-link>
+          <router-link to="/past">Past</router-link>
 
-            <br />
-            -
-            <br />
+          <br />
+          -
+          <br />
 
-            <router-link to="/projects">Projects</router-link>
-          </div>
+          <router-link to="/projects">Projects</router-link>
+        </v-col>
+
+        <v-col class="nav" id="mobile-nav" :cols="12">
+          <router-link to="/">
+            <h2>Lakshman Sankar</h2>
+          </router-link>
+
+          <br />
+
+          <router-link to="/">Present</router-link>
+          |
+          <router-link to="/past">Past</router-link>
+          |
+          <router-link to="/projects">Projects</router-link>
+
+          <br />
+          <br />
         </v-col>
 
         <v-col :cols="auto">
@@ -37,20 +50,36 @@
 </template>
 
 <style>
+@media (max-width: 768px) {
+  #desktop-nav {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  #mobile-nav {
+    display: none;
+  }
+}
+
+#mobile-nav {
+  text-align: center;
+}
+
 #main {
-  width: 1000px;
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
   padding-top: 60px;
 }
 
-#nav a {
+.nav a {
   color: #000;
   text-decoration: none;
   font-weight: bold;
+  margin-right: 2px;
 }
 
-#nav a:hover {
+.nav a:hover {
   color: #3e434a;
 }
 </style>

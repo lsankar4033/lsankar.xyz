@@ -4,9 +4,9 @@
     <br />
 
     <p>
-      Hi, I'm Lakshman and I build technology for fun and profit. I'm drawn to
-      stirring the pot and resisting conformity. I prefer pursuing diversity and
-      creativity to pursuing optimality.
+      Hi, I'm Lakshman and I build things for fun and profit. I like stirring
+      the pot and prefer a world with diversity to one that's maximally
+      efficient.
     </p>
 
     <br />
@@ -19,7 +19,7 @@
     <br />
 
     <p>
-      I spend some remaining time advising/consulting with companies on their
+      I spend some remaining time advising/consulting with companies on
       blockchain problems. I've been lucky to work with some
       <a href="https://rarebits.io">really</a>&nbsp;<a
         href="https://www.lumina.app"
@@ -32,10 +32,10 @@
     <br />
 
     <p>
-      I'm a proud member of the
+      I'm a member of the
       <a href="https://www.southparkcommons.com">South Park Commons</a>, a
-      community of ambitious technologists focused on being deliberate about
-      what to work on next.
+      community of ambitious technologists striving to be deliberate about what
+      to spend time on.
     </p>
 
     <br />
