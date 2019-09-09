@@ -22,6 +22,11 @@
           <br />
 
           <router-link to="/projects">Projects</router-link>
+
+          <br />
+          <br />
+
+          <SocialIcons />
         </v-col>
 
         <v-col class="nav" id="mobile-nav" :cols="12">
@@ -39,6 +44,11 @@
 
           <br />
           <br />
+
+          <SocialIcons />
+
+          <br />
+          <br />
         </v-col>
 
         <v-col :cols="auto">
@@ -48,6 +58,17 @@
     </v-container>
   </div>
 </template>
+
+<script>
+import SocialIcons from "@/components/SocialIcons.vue";
+
+export default {
+  name: "App",
+  components: {
+    SocialIcons
+  }
+};
+</script>
 
 <style>
 @media (max-width: 768px) {
@@ -67,9 +88,8 @@
 }
 
 #main {
-  margin: 0 auto;
   font-family: "Roboto", sans-serif;
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
 .nav a {
