@@ -4,60 +4,50 @@
     <br />
 
     <p>
-      I've been fortunate to have had some excellent life experiences so far. In
-      no particular order, here are some of the ones I'm most fond of:
+      I've been fortunate to have had some excellent life experiences so far.
+      Here are some experiences that I think back on fondly:
     </p>
     <br />
 
     <ul>
       <li>
-        2019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong
-          >:</strong
+        running the
+        <a href="https://www.strava.com/activities/2570767250"
+          >2019 SF Marathon</a
         >
-        running the SF marathon
       </li>
       <li>
-        2017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong
-          >:</strong
-        >
         traveling solo without a plan in SE Asia for 3 months
       </li>
       <li>
-        2010-2011 <strong>:</strong> co-organizing
+        co-organizing
         <a href="https://www.youtube.com/watch?v=wkT4QmYkG9g"
           >one of the biggest freestyle hip-hop events</a
         >
         in Boston.
       </li>
       <li>
-        2006-2008 <strong>:</strong> contributing to the search for
-        gravitational waves at
+        contributing to the search for gravitational waves at
         <a href="https://www.ligo.org">LIGO</a>
       </li>
       <li>
-        2007-2011 <strong>:</strong> studying Physics and Computer Science at
+        studying Physics and Computer Science at
         <a href="http://web.mit.edu/">MIT</a>
       </li>
       <li>
-        2017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong
-          >:</strong
-        >
-        building a product from idea to $50k MRR within 5 months at
+        building an internet product from idea to $50k MRR within 5 months at
         <a href="https://angel.co">AngelList</a>
       </li>
       <li>
-        2015-2016 <strong>:</strong> working on a
+        working on a
         <a href="https://liftoff.io">machine learning system</a> which made
         ~600k decisions/second
       </li>
       <li>
-        2011-2012 <strong>:</strong> co-founding and selling an
+        co-founding and selling an
         <a href="https://braingenie.ck12.org">education technology startup</a>
       </li>
       <li>
-        2017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong
-          >:</strong
-        >
         canoe camping down the Green River in Southern Utah for a week
       </li>
     </ul>
@@ -73,5 +63,6 @@ export default {
 <style>
 ul {
   list-style-position: inside;
+  list-style-type: disc;
 }
 </style>
