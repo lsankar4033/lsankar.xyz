@@ -43,6 +43,13 @@ export default {
     return {
       projects: [
         {
+          name: "manabank",
+          description:
+            "Adding fungibility to non-fungible tokens on Ethereum. Originally developed for the CheezeWizards hackathon",
+          url: "https://themanabank.com",
+          img: require("../assets/manabank.png")
+        },
+        {
           name: "microverse",
           description:
             "An Ethereum land ownership game exploring some of the properties of Harberger taxes. Ran for a couple simulations with ~50 players before an Ethereum whale bought up most of the land. There are the seeds of some pretty interesting ideas here that I'll explore again in the future.",
