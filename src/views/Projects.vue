@@ -45,7 +45,7 @@ export default {
         {
           name: "manabank",
           description:
-            "Adding fungibility to non-fungible tokens on Ethereum. Originally developed for the CheezeWizards hackathon",
+            "Adding fungibility to non-fungible tokens on Ethereum. Originally developed for the CheezeWizards hackathon.",
           url: "https://themanabank.com",
           img: require("../assets/manabank.png")
         },
