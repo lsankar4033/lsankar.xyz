@@ -1,7 +1,6 @@
 <template>
   <div class="projects">
     <h2>Projects</h2>
-
     <br />
 
     <p>
@@ -43,9 +42,16 @@ export default {
     return {
       projects: [
         {
+          name: "surrogeth",
+          description:
+            "A meta-transaction network designed to support trustless mixers in Ethereum. I was lucky to receive an Ethereum Foundation Grant to build this idea out.",
+          url: "https://github.com/lsankar4033/surrogeth",
+          img: require("../assets/github.png")
+        },
+        {
           name: "manabank",
           description:
-            "Adding fungibility to non-fungible tokens on Ethereum. Originally developed for the CheezeWizards hackathon.",
+            "Adding fungibility to CheezeWizards, a NFT game on Ethereum. Proud member of the CheezyVerse and a prototype for ideas I'm likely to explore further in the future.",
           url: "https://themanabank.com",
           img: require("../assets/manabank.png")
         },

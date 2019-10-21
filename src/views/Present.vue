@@ -24,7 +24,7 @@
       <a href="https://rarebits.io">really</a>&nbsp;<a
         href="https://www.lumina.app"
         >cool</a
-      >&nbsp;<a href="https://www.oasislabs.com">companies</a>. Meet me
+      >&nbsp;<a href="https://www.oasislabs.com">companies</a>. Contact me
       <a href="https://www.alacritaslabs.com">here</a> if you'd like to work
       with me.
     </p>
