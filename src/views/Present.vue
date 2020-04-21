@@ -12,14 +12,15 @@
     <br />
 
     <p>
-      These days, I spend most of my time as a researcher/hacker on
-      <a href="https://ethereum.org">Ethereum</a>.
+      These days, I spend most of my time as a researcher/hacker at the
+      <a href="https://ethereum.org">Ethereum Foundation</a>.
     </p>
 
     <br />
 
     <p>
-      I spend some remaining time advising/consulting. I've been lucky to work with some
+      I spend some remaining time advising/consulting. I've been lucky to work
+      with some
       <a href="https://rarebits.io">really</a>&nbsp;<a
         href="https://www.lumina.app"
         >cool</a
