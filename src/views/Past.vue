@@ -11,6 +11,11 @@
 
     <ul>
       <li>
+        being a member of <a href="https://www.southparkcommons.com/">South Park Commons<a>, including a stint
+            as the recruitment lead.
+      </li>
+
+      <li>
         running the
         <a href="https://www.strava.com/activities/2570767250"
           >2019 SF Marathon</a

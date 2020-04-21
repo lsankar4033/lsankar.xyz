@@ -19,8 +19,7 @@
     <br />
 
     <p>
-      I spend some remaining time advising/consulting with companies on
-      blockchain problems. I've been lucky to work with some
+      I spend some remaining time advising/consulting. I've been lucky to work with some
       <a href="https://rarebits.io">really</a>&nbsp;<a
         href="https://www.lumina.app"
         >cool</a
@@ -32,19 +31,9 @@
     <br />
 
     <p>
-      I'm a member of the
-      <a href="https://www.southparkcommons.com">South Park Commons</a>, a
-      community of ambitious technologists striving to be deliberate about what
-      to spend time on.
-    </p>
-
-    <br />
-
-    <p>
       You can follow my
-      <a href="https://github.com/lsankar4033/">programming on Github</a>, my
-      <a href="https://medium.com/@lakshmansankar">writing on Medium</a>, and my
-      <a href="https://www.strava.com/athletes/3008746">running on Strava</a>.
+      <a href="https://github.com/lsankar4033/">programming on Github</a> and my
+      <a href="https://medium.com/@lakshmansankar">writing on Medium</a>.
     </p>
 
     <br />

@@ -44,7 +44,7 @@ export default {
         {
           name: "surrogeth",
           description:
-            "A meta-transaction network designed to support trustless mixers in Ethereum. I was lucky to receive an Ethereum Foundation Grant to build this idea out.",
+            "Tricking Ethereum tx frontrunners to do work for you. I was lucky to receive an Ethereum Foundation Grant to build this idea out.",
           url: "https://github.com/lsankar4033/surrogeth",
           img: require("../assets/github.png")
         },
