@@ -1,6 +1,4 @@
 FROM node:13.13.0-alpine
-ARG PORT=8081
-ENV PORT ${PORT}
 
 # install
 WORKDIR /app
@@ -12,5 +10,5 @@ COPY . .
 RUN npm run build
 
 # run
-EXPOSE ${PORT}
+EXPOSE 8081
 CMD ["node", "server.js"]
