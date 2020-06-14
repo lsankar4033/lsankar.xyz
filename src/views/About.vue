@@ -3,44 +3,25 @@
     <br />
 
     <p>
-      Hi, I'm Lakshman and I build things for fun and profit. I like stirring
-      the pot and prefer a world with diversity to one that's maximally
-      efficient.
+      Hi, I'm Lakshman. I work for the <a href="https://ethereum.org/">Ethereum Foundation</a> on research and
+      engineering. My main focuses are zero-knowledge proof applications and Ethereum 2.0. I'm optimistic about
+      technology as a democratizing force and invest most of my time in that vein.
     </p>
 
     <br />
 
     <p>
-      These days, I spend most of my time as a researcher/hacker at the
-      <a href="https://ethereum.org">Ethereum Foundation</a>.
+      In the past, I've been an engineer, data scientist, and founder. My 'professional' profile is
+      <a href="https://www.linkedin.com/in/lakshman-sankar-72b39831/">here</a>.
     </p>
 
     <br />
 
     <p>
-      I spend some remaining time advising/consulting. I've been lucky to work
-      with some
-      <a href="https://rarebits.io">really</a>&nbsp;<a
-        href="https://www.lumina.app"
-        >cool</a
-      >&nbsp;<a href="https://www.oasislabs.com">companies</a>. Contact me
-      <a href="https://www.alacritaslabs.com">here</a> if you'd like to work
-      with me.
+      The internet identities I'm most active with are Twitter and Github; you can find links to those above.
     </p>
 
     <br />
-
-    <p>
-      You can follow my
-      <a href="https://github.com/lsankar4033/">programming on Github</a> and my
-      <a href="https://medium.com/@lakshmansankar">writing on Medium</a>.
-    </p>
-
-    <br />
-
-    <p>
-      I also <a href="https://twitter.com/lakshmansankar">lurk on Twitter</a>.
-    </p>
   </div>
 </template>
 
