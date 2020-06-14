@@ -1,51 +1,15 @@
 <template>
   <div id="main">
-    <v-container>
+    <v-container id="container">
       <v-row class="mb-6" no-gutters>
-        <v-col class="nav" id="desktop-nav" :cols="3">
-          <router-link to="/">
-            <h2>Lakshman Sankar</h2>
-          </router-link>
-
-          <br />
-
-          <router-link to="/">Present</router-link>
-
-          <br />
-          -
-          <br />
-
-          <router-link to="/past">Past</router-link>
-
-          <br />
-          -
-          <br />
-
-          <router-link to="/projects">Projects</router-link>
-
-          <br />
-          <br />
-
-          <SocialIcons />
-        </v-col>
-
-        <v-col class="nav" id="mobile-nav" :cols="12">
-          <router-link to="/">
-            <h2>Lakshman Sankar</h2>
-          </router-link>
-
-          <br />
-
-          <router-link to="/">Present</router-link>
+        <v-col class="nav" id="nav" :cols="12">
+          <router-link to="/">About</router-link>
           |
-          <router-link to="/past">Past</router-link>
+          <router-link to="/writing">Writing</router-link>
           |
-          <router-link to="/projects">Projects</router-link>
-
-          <br />
-          <br />
-
-          <SocialIcons />
+          <a href="https://twitter.com/lakshmansankar">Twitter</a>
+          |
+          <a href="https://github.com/lsankar4033/">Github</a>
 
           <br />
           <br />
@@ -60,30 +24,17 @@
 </template>
 
 <script>
-import SocialIcons from "@/components/SocialIcons.vue";
-
 export default {
-  name: "App",
-  components: {
-    SocialIcons
-  }
+  name: "App"
 };
 </script>
 
 <style>
-@media (max-width: 768px) {
-  #desktop-nav {
-    display: none;
-  }
+#container {
+  max-width: 700px;
 }
 
-@media (min-width: 768px) {
-  #mobile-nav {
-    display: none;
-  }
-}
-
-#mobile-nav {
+#nav {
   text-align: center;
 }
 
