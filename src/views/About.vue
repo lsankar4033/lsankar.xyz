@@ -1,6 +1,5 @@
 <template>
   <div class="present">
-    <h2>Present</h2>
     <br />
 
     <p>
