@@ -13,7 +13,6 @@
 
           <br />
           <br />
-
         </v-col>
 
         <v-col :cols="auto">
