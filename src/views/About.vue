@@ -5,27 +5,37 @@
     <p>
       Hi, I'm Lakshman. I work for the
       <a href="https://ethereum.org/">Ethereum Foundation</a> on research and
-      engineering. My main focuses are zero-knowledge proof applications and
-      Ethereum 2.0. I'm optimistic about technology as a democratizing force and
-      invest most of my time in that vein.
+      engineering. Unless I've forgotten to update this blurb recently, my main
+      foci there are Ethereum 2.0 and applications of zero-knowledge proofs.
     </p>
 
     <br />
 
     <p>
-      In the past, I've been an engineer, data scientist, and founder. My
-      'professional' profile is
-      <a href="https://www.linkedin.com/in/lakshman-sankar-72b39831/">here</a>.
+      When it comes to creating an equitable, free society, I believe there's a
+      bad way and a good way to build software systems. I'm committed to
+      exploring the good way. I think we should all be able to opt in or opt out
+      of systems and institutions and retrieve the information to make such
+      decisions.
     </p>
 
     <br />
 
     <p>
-      The internet identities I'm most active with are Twitter and Github; you
-      can find links to those above.
+      In the past, I've been an engineer, data scientist, and founder. I don't
+      spend much energy keeping a 'professional profile', but the best you'll
+      find is probably on
+      <a href="https://www.linkedin.com/in/lakshman-sankar-72b39831/"
+        >LinkedIn</a
+      >. Definitely don't message me there though; I never check it.
     </p>
 
     <br />
+
+    <p>
+      If you want <em>do</em> want to chat, twitter and e-mail are inboxes I
+      frequent. Please no job offers or ads. Ideas only.
+    </p>
   </div>
 </template>
 

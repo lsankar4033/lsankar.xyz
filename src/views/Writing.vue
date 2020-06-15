@@ -1,6 +1,9 @@
 <template>
-  <div class="writing">
-    Coming soon
+  <div id="writing">
+    <br />
+
+    <router-link to="/here-we-go-again">Here we go again</router-link> -- Jun
+    2020
   </div>
 </template>
 
