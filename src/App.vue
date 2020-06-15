@@ -10,6 +10,8 @@
           <a href="https://twitter.com/lakshmansankar">Twitter</a>
           |
           <a href="https://github.com/lsankar4033/">Github</a>
+          |
+          <a href="mailto:lsankar4033@gmail.com">Email</a>
 
           <br />
           <br />
