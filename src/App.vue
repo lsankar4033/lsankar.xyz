@@ -18,7 +18,7 @@
         </v-col>
 
         <v-col :cols="auto">
-          <router-view />
+          <router-view id="content" />
         </v-col>
       </v-row>
     </v-container>
@@ -33,7 +33,7 @@ export default {
 
 <style>
 #container {
-  max-width: 700px;
+  max-width: 600px;
 }
 
 #nav {
@@ -54,5 +54,21 @@ export default {
 
 .nav a:hover {
   color: #3e434a;
+}
+
+#content p {
+  font-size: 14px;
+  line-height: 1.65em;
+}
+
+#content a {
+  color: #111;
+  text-decoration: none;
+  margin-right: 2px;
+  font-style: italic;
+}
+
+#content a:hover {
+  color: #666;
 }
 </style>
