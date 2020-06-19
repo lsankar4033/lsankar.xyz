@@ -33,8 +33,8 @@
     <br />
 
     <p>
-      If you want <em>do</em> want to chat, twitter and e-mail are inboxes I
-      frequent. Please no job offers or ads. Ideas only.
+      If you do want want to chat, twitter and e-mail are inboxes I frequent.
+      Please no job offers or ads. Ideas only.
     </p>
   </div>
 </template>
