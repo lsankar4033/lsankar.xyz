@@ -4,6 +4,7 @@ import About from "./views/About.vue";
 import Writing from "./views/Writing.vue";
 
 import HereWeGoAgain from "./views/Writing/HereWeGoAgain.vue";
+import ChangingOneThingAtATime from "./views/Writing/ChangingOneThingAtATime.vue";
 
 Vue.use(Router);
 
@@ -23,6 +24,11 @@ export default new Router({
       path: "/here-we-go-again",
       name: "here-we-go-again",
       component: HereWeGoAgain
+    },
+    {
+      path: "/changing-one-thing-at-a-time",
+      name: "changing-one-thing-at-a-time",
+      component: ChangingOneThingAtATime
     }
   ]
 });
