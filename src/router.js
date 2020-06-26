@@ -5,6 +5,7 @@ import Writing from "./views/Writing.vue";
 
 import HereWeGoAgain from "./views/Writing/HereWeGoAgain.vue";
 import ChangingOneThingAtATime from "./views/Writing/ChangingOneThingAtATime.vue";
+import OptimizersIdealistsAndAdventurers from "./views/Writing/OptimizersIdealistsAndAdventurers.vue";
 
 Vue.use(Router);
 
@@ -29,6 +30,11 @@ export default new Router({
       path: "/changing-one-thing-at-a-time",
       name: "changing-one-thing-at-a-time",
       component: ChangingOneThingAtATime
+    },
+    {
+      path: "/optimizers-idealists-and-adventurers",
+      name: "optimizers-idealists-and-adventurers",
+      component: OptimizersIdealistsAndAdventurers
     }
   ]
 });

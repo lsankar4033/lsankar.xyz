@@ -12,6 +12,14 @@
       >Changing one thing at a time</router-link
     >
     -- June 18, 2020
+
+    <br />
+    <br />
+
+    <router-link to="/optimizers-idealists-and-adventurers"
+      >Optimizers, idealists, and adventurers</router-link
+    >
+    -- June 26, 2020
   </div>
 </template>
 
