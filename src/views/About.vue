@@ -13,10 +13,9 @@
 
     <p>
       When it comes to creating an equitable, free society, I believe there's a
-      bad way and a good way to build software systems. I'm committed to
-      exploring the good way. I think we should all be able to opt in or opt out
-      of systems and institutions and retrieve the information to make such
-      decisions.
+      bad way and a good way to build systems. I'm committed to exploring the
+      good way. I think we should all be able to opt in or opt out of systems
+      and institutions and retrieve the information to make such decisions.
     </p>
 
     <br />
