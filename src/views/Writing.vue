@@ -1,6 +1,16 @@
 <template>
   <div id="writing">
     <br />
+
+    <p style="text-align: center;">
+      The best way to follow my writing is to follow changes at
+      <a href="https://github.com/lsankar4033/lakshmansankar.com/"
+        >this github repo</a
+      >
+    </p>
+
+    <br />
+    <br />
     <router-link to="/optimizers-idealists-and-adventurers"
       >Optimizers, idealists, and adventurers</router-link
     >
