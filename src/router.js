@@ -6,6 +6,7 @@ import Writing from "./views/Writing.vue";
 import HereWeGoAgain from "./views/Writing/HereWeGoAgain.vue";
 import ChangingOneThingAtATime from "./views/Writing/ChangingOneThingAtATime.vue";
 import OptimizersIdealistsAndAdventurers from "./views/Writing/OptimizersIdealistsAndAdventurers.vue";
+import ExploringCodeInSpaceAndTime from "./views/Writing/ExploringCodeInSpaceAndTime.vue";
 
 Vue.use(Router);
 
@@ -35,6 +36,11 @@ export default new Router({
       path: "/optimizers-idealists-and-adventurers",
       name: "optimizers-idealists-and-adventurers",
       component: OptimizersIdealistsAndAdventurers
+    },
+    {
+      path: "/exploring-code-in-space-and-time",
+      name: "exploring-code-in-space-and-time",
+      component: ExploringCodeInSpaceAndTime
     }
   ]
 });

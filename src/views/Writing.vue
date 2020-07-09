@@ -11,6 +11,13 @@
 
     <br />
     <br />
+    <router-link to="/exploring-code-in-space-and-time"
+      >Exploring code in space and time</router-link
+    >
+    -- July 8, 2020
+
+    <br />
+    <br />
     <router-link to="/optimizers-idealists-and-adventurers"
       >Optimizers, idealists, and adventurers</router-link
     >
