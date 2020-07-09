@@ -63,9 +63,7 @@ export default {
 
 #content a {
   color: #111;
-  text-decoration: none;
   margin-right: 2px;
-  font-style: italic;
 }
 
 #content a:hover {
