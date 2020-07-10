@@ -13,7 +13,7 @@
     </p>
 
     <br />
-    <br />
+
     <p>
       I blame this on the fact that my most formative programming years were
       spent in pure functional languages. When I'm dealing with a functional
@@ -27,14 +27,13 @@
     </p>
 
     <br />
-    <br />
+
     <p>
       And because the data shared between these pure call trees is explicitly
       defined, it's easy to log every change. Logging gives you the same picture
       as debugging.
     </p>
 
-    <br />
     <br />
     <p>
       Now I write in blend of imperative and functional and logging has blind
@@ -44,7 +43,7 @@
     </p>
 
     <br />
-    <br />
+
     <p>
       If text editors allow me to explore a program in space, logging and
       debuggers allow me to explore them in space-time. I get to pull out a
@@ -56,7 +55,7 @@
     </p>
 
     <br />
-    <br />
+
     <p>
       My recent re-introduction to debuggers has me appreciating a running
       program as a structure to understand on its own. I'd gotten used to mostly
