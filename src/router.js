@@ -7,6 +7,7 @@ import HereWeGoAgain from "./views/Writing/HereWeGoAgain.vue";
 import ChangingOneThingAtATime from "./views/Writing/ChangingOneThingAtATime.vue";
 import OptimizersIdealistsAndAdventurers from "./views/Writing/OptimizersIdealistsAndAdventurers.vue";
 import ExploringCodeInSpaceAndTime from "./views/Writing/ExploringCodeInSpaceAndTime.vue";
+import ReconnectingWithNietzsche from "./views/Writing/ReconnectingWithNietzsche.vue";
 
 Vue.use(Router);
 
@@ -41,6 +42,11 @@ export default new Router({
       path: "/exploring-code-in-space-and-time",
       name: "exploring-code-in-space-and-time",
       component: ExploringCodeInSpaceAndTime
+    },
+    {
+      path: "/reconnecting-with-nietzsche",
+      name: "reconnecting-with-nietzsche",
+      component: ReconnectingWithNietzsche
     }
   ]
 });

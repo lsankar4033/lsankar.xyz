@@ -14,6 +14,13 @@
 
     <br />
     <br />
+    <router-link to="/reconnecting-with-nietzsche"
+      >Reconnecting with Nietzsche</router-link
+    >
+    -- July 24, 2020
+
+    <br />
+    <br />
     <router-link to="/exploring-code-in-space-and-time"
       >Exploring code in space and time</router-link
     >
