@@ -3,10 +3,10 @@
     <br />
 
     <p>
-      Hi, I'm Lakshman. I work for the
-      <a href="https://ethereum.org/">Ethereum Foundation</a> on research and
-      engineering. Unless I've forgotten to update this blurb recently, my main
-      foci there are Ethereum 2.0 and applications of zero-knowledge proofs.
+      Hi, I'm Lakshman. I do crypto/blockchain R&D, largely around Ethereum 2.0,
+      funded by the <a href="https://ethereum.org/">Ethereum Foundation</a>. I
+      also like hacking and you can find most things I do on
+      <a href="https://github.com/lsankar4033/">Github</a>.
     </p>
 
     <br />
@@ -14,27 +14,29 @@
     <p>
       When it comes to creating an equitable, free society, I believe there's a
       bad way and a good way to build systems. I'm committed to exploring the
-      good way. I think we should all be able to opt in or opt out of systems
-      and institutions and retrieve the information to make such decisions.
+      good way. I think we should all have a choice of which systems and
+      institutions to be a part of.
     </p>
 
     <br />
 
     <p>
-      In the past, I've been an engineer, data scientist, and founder. I don't
-      spend much energy keeping a 'professional profile', but the best you'll
-      find is probably on
-      <a href="https://www.linkedin.com/in/lakshman-sankar-72b39831/"
-        >LinkedIn</a
-      >. Definitely don't message me there though; I never check it.
+      In the past, I've been an engineer, data scientist, and startup founder.
+      Google me to find me on your favorite professional profile website, but
+      don't expect it to be up to date. Better to just see what I'm up to on
+      <a href="https://twitter.com/lakshmansankar">Twitter</a>.
     </p>
 
     <br />
 
     <p>
-      If you do want want to chat, twitter and e-mail are inboxes I frequent.
-      Please no job offers or ads. Ideas only.
+      If you want to connect,
+      <a href="https://twitter.com/lakshmansankar">Twitter</a> and
+      <a href="mailto:lsankar4033@gmail.com">e-mail</a> are inboxes I frequent.
+      Please no job offers or ads.
     </p>
+
+    <br />
   </div>
 </template>
 
