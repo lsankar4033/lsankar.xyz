@@ -2,6 +2,7 @@ import Vue from "vue";
 import Router from "vue-router";
 import About from "./views/About.vue";
 import Writing from "./views/Writing.vue";
+import WritingCrypto from "./views/WritingCrypto.vue";
 
 import HereWeGoAgain from "./views/Writing/HereWeGoAgain.vue";
 import ChangingOneThingAtATime from "./views/Writing/ChangingOneThingAtATime.vue";
@@ -22,6 +23,11 @@ export default new Router({
       path: "/writing",
       name: "writing",
       component: Writing
+    },
+    {
+      path: "/writing-crypto",
+      name: "writing-crypto",
+      component: WritingCrypto
     },
     {
       path: "/here-we-go-again",

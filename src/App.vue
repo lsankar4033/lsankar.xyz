@@ -5,14 +5,9 @@
         <v-col class="nav" id="nav" :cols="12">
           <router-link to="/">About</router-link>
           |
-          <router-link to="/writing">Writing</router-link>
+          <router-link to="/writing-crypto">Crypto</router-link>
           |
-          <a href="https://twitter.com/lakshmansankar">Twitter</a>
-          |
-          <a href="https://github.com/lsankar4033/">Github</a>
-          |
-          <a href="mailto:lsankar4033@gmail.com">Email</a>
-
+          <router-link to="/writing">Life</router-link>
           <br />
           <br />
         </v-col>
