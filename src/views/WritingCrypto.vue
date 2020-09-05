@@ -14,6 +14,11 @@
 
     <br />
     <br />
+
+    <router-link to="/shards-as-data-availability-layers"
+      >Simplifying Eth 2.0: Shards as data availability layers</router-link
+    >
+    -- September 4, 2020
   </div>
 </template>
 

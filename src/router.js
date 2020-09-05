@@ -9,6 +9,7 @@ import ChangingOneThingAtATime from "./views/Writing/ChangingOneThingAtATime.vue
 import OptimizersIdealistsAndAdventurers from "./views/Writing/OptimizersIdealistsAndAdventurers.vue";
 import ExploringCodeInSpaceAndTime from "./views/Writing/ExploringCodeInSpaceAndTime.vue";
 import ReconnectingWithNietzsche from "./views/Writing/ReconnectingWithNietzsche.vue";
+import ShardsAsDataAvailabilityLayers from "./views/Writing/ShardsAsDataAvailabilityLayers.vue";
 
 Vue.use(Router);
 
@@ -53,6 +54,11 @@ export default new Router({
       path: "/reconnecting-with-nietzsche",
       name: "reconnecting-with-nietzsche",
       component: ReconnectingWithNietzsche
+    },
+    {
+      path: "/shards-as-data-availability-layers",
+      name: "shards-as-data-availability-layers",
+      component: ShardsAsDataAvailabilityLayers
     }
   ]
 });
