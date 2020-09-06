@@ -225,6 +225,10 @@
       In future posts, I'll dig into a few more.
     </p>
     <br />
+
+    <em>
+      Thanks to <a href="https://twitter.com/Flynnjamm?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Brian Flynn</a> and <a href="https://www.adiasg.me/">Aditya Asgaonkar</a> for comments/review.
+    </em>
   </div>
 </template>
 
