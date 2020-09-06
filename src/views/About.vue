@@ -4,9 +4,10 @@
 
     <p>
       Hi, I'm Lakshman. I do crypto/blockchain R&D, largely around Ethereum 2.0,
-      partially funded by the <a href="https://ethereum.org/">Ethereum Foundation</a>. I'm mostly
-      interested in making sure that the protocol serves the application layer. I
-      also like hacking and (very) occasionally angel investing.
+      partially funded by the
+      <a href="https://ethereum.org/">Ethereum Foundation</a>. I'm mostly
+      interested in making sure that the protocol serves the application layer.
+      I also like hacking and (very) occasionally angel investing.
     </p>
 
     <br />
