@@ -13,6 +13,13 @@
       Look for commits starting with "[New Post]"
     </p>
     -->
+    <br />
+    <br />
+
+    <router-link to="/fast-pipes-smart-vms"
+      >Unrolling Rollups: Fast pipes and smart VMs</router-link
+    >
+    -- September 27, 2020
 
     <br />
     <br />

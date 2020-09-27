@@ -10,6 +10,7 @@ import OptimizersIdealistsAndAdventurers from "./views/Writing/OptimizersIdealis
 import ExploringCodeInSpaceAndTime from "./views/Writing/ExploringCodeInSpaceAndTime.vue";
 import ReconnectingWithNietzsche from "./views/Writing/ReconnectingWithNietzsche.vue";
 import ShardsAsDataAvailabilityLayers from "./views/Writing/ShardsAsDataAvailabilityLayers.vue";
+import FastPipesSmartVMs from "./views/Writing/FastPipesSmartVMs.vue";
 
 Vue.use(Router);
 
@@ -59,6 +60,11 @@ export default new Router({
       path: "/shards-as-data-availability-layers",
       name: "shards-as-data-availability-layers",
       component: ShardsAsDataAvailabilityLayers
+    },
+    {
+      path: "/fast-pipes-smart-vms",
+      name: "fast-pipes-smart-vms",
+      component: FastPipesSmartVMs
     }
   ]
 });
