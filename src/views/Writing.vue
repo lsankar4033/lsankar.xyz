@@ -13,46 +13,18 @@
       Look for commits starting with "[New Post]"
     </p>
     -->
-
-    <br />
-    <br />
-    <router-link to="/reconnecting-with-nietzsche"
-      >Reconnecting with Nietzsche</router-link
-    >
-    -- July 24, 2020
-
-    <br />
-    <br />
-    <router-link to="/exploring-code-in-space-and-time"
-      >Exploring code in space and time</router-link
-    >
-    -- July 8, 2020
-
-    <br />
-    <br />
-    <router-link to="/optimizers-idealists-and-adventurers"
-      >Optimizers, idealists, and adventurers</router-link
-    >
-    -- June 26, 2020
-
-    <br />
-    <br />
-
-    <router-link to="/changing-one-thing-at-a-time"
-      >Changing one thing at a time</router-link
-    >
-    -- June 18, 2020
-
-    <br />
-    <br />
-
-    <router-link to="/here-we-go-again">Here we go again</router-link> -- June
-    14, 2020
+    <div v-for="post in posts" v-bind:key="post.path">
+      <br />
+      <router-link v-bind:to="post.path">{{ post.title }}</router-link>
+      <br />
+      <em>--{{ post.date.toDateString() }}</em>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
+  props: ["posts"],
   name: "Writing"
 };
 </script>

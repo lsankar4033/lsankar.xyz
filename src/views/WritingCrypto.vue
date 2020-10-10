@@ -13,26 +13,18 @@
       Look for commits starting with "[New Post]"
     </p>
     -->
-    <br />
-    <br />
-
-    <router-link to="/fast-pipes-smart-vms"
-      >Unrolling Rollups: Fast pipes and smart VMs</router-link
-    >
-    -- September 27, 2020
-
-    <br />
-    <br />
-
-    <router-link to="/shards-as-data-availability-layers"
-      >Simplifying Eth 2.0: Shards as data availability layers</router-link
-    >
-    -- September 4, 2020
+    <div v-for="post in posts" v-bind:key="post.path">
+      <br />
+      <router-link v-bind:to="post.path">{{ post.title }}</router-link>
+      <br />
+      <em>--{{ post.date.toDateString() }}</em>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
+  props: ["posts"],
   name: "WritingCrypto"
 };
 </script>

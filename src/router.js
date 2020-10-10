@@ -7,21 +7,26 @@ import Post from "./views/Post.vue";
 
 import posts from "./posts.js";
 
+const lifePosts = posts.filter(p => p.category === "life");
+lifePosts.sort((p1, p2) => p2.date - p1.date);
+
+const cryptoPosts = posts.filter(p => p.category === "crypto");
+cryptoPosts.sort((p1, p2) => p2.date - p1.date);
+
 const topLevelRoutes = [
   {
     path: "/",
-    name: "about",
     component: About
   },
   {
     path: "/writing",
-    name: "writing",
-    component: Writing
+    component: Writing,
+    props: { posts: lifePosts }
   },
   {
     path: "/writing-crypto",
-    name: "writing-crypto",
-    component: WritingCrypto
+    component: WritingCrypto,
+    props: { posts: cryptoPosts }
   }
 ];
 
