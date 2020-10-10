@@ -16,13 +16,22 @@ def md_to_html(md_file, out_file):
         if line == '\n':
             continue
 
+        if line.startswith("# "):
+            out_html += '<br />\n'
+            out_html += '<h2 id="title">'
+            out_html += line[2:]
+            out_html += '</h2>\n'
+            out_html += '<br />\n'
+            out_html += '<br />\n'
+
+        else:
+            out_html += '<p>\n'
+            out_html += line
+            out_html += '</p>\n'
+            out_html += '<br />\n'
+
         # deal with links. this doesn't *quite* work for multi-link lines :/
         #line = re.sub(r"\[([^\[]+)\]\((.*)\)", r"<a href='\2'>\1</a>", line)
-
-        out_html += '<p>\n'
-        out_html += line
-        out_html += '</p>\n'
-        out_html += '<br />\n'
 
     with open(out_file, 'w') as f:
         f.write(out_html)
