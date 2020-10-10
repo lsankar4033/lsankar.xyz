@@ -51,7 +51,8 @@ export default {
   color: #3e434a;
 }
 
-#content p {
+#content p,
+li {
   font-size: 14px;
   line-height: 1.65em;
 }

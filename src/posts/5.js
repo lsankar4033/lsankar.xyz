@@ -48,7 +48,8 @@ I've been in really high spirits about the fact that I was able to reconnect wit
 <br />
 
 <p>
-One new idea that's resonating with me is why our pasts are the source of anxiety. Nietzsche has a simple model for this: <ul>
+One new idea that's resonating with me is why our pasts are the source of anxiety. Nietzsche has a simple model for this:
+<ul>
 <li>
 all humans are fundamentally driven by a desire to expand their own power. he calls this the 'will to power'
 </li>
