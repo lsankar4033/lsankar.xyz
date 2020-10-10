@@ -4,11 +4,11 @@
 
     <p>
       Hi, I'm Lakshman. I do crypto/blockchain R&D, largely around Ethereum 2.0,
-      partially funded by the
-      <a href="https://ethereum.org/">Ethereum Foundation</a>. I'm mostly
-      interested in making sure that the protocol serves the application layer.
-      I also like hacking (<a href="https://github.com/lsankar4033/">Github</a>)
-      and (very) occasionally angel investing.
+      funded by the
+      <a href="https://ethereum.org/">Ethereum Foundation</a>. I'm interested in
+      making sure that the protocol serves the application layer. I also like
+      hacking (<a href="https://github.com/lsankar4033/">Github</a>) and (very)
+      occasionally angel investing/consulting with teams that inspire me.
     </p>
 
     <br />
@@ -16,7 +16,7 @@
     <p>
       When it comes to creating an equitable, free society, I believe there's a
       bad way and a good way to build systems. I'm committed to exploring the
-      good way. I think we should all have a choice of which systems and
+      good way. I think we should all have a choice in which systems and
       institutions to be a part of.
     </p>
 
