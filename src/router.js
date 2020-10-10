@@ -4,13 +4,16 @@ import About from "./views/About.vue";
 import Writing from "./views/Writing.vue";
 import WritingCrypto from "./views/WritingCrypto.vue";
 
-import HereWeGoAgain from "./views/Writing/HereWeGoAgain.vue";
 import ChangingOneThingAtATime from "./views/Writing/ChangingOneThingAtATime.vue";
 import OptimizersIdealistsAndAdventurers from "./views/Writing/OptimizersIdealistsAndAdventurers.vue";
 import ExploringCodeInSpaceAndTime from "./views/Writing/ExploringCodeInSpaceAndTime.vue";
 import ReconnectingWithNietzsche from "./views/Writing/ReconnectingWithNietzsche.vue";
 import ShardsAsDataAvailabilityLayers from "./views/Writing/ShardsAsDataAvailabilityLayers.vue";
 import FastPipesSmartVMs from "./views/Writing/FastPipesSmartVMs.vue";
+
+import Post from "./views/Post.vue";
+
+import hwga from "./posts/1.js";
 
 Vue.use(Router);
 
@@ -33,8 +36,8 @@ export default new Router({
     },
     {
       path: "/here-we-go-again",
-      name: "here-we-go-again",
-      component: HereWeGoAgain
+      component: Post,
+      props: { body: hwga }
     },
     {
       path: "/changing-one-thing-at-a-time",
@@ -65,6 +68,14 @@ export default new Router({
       path: "/fast-pipes-smart-vms",
       name: "fast-pipes-smart-vms",
       component: FastPipesSmartVMs
+    },
+
+    // TODO: remove
+    {
+      path: "/test-post",
+      name: "test-post",
+      component: Post,
+      props: { body: "<div><p>line 1</p><p>line 2</p></div>" }
     }
   ]
 });
