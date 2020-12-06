@@ -3,8 +3,7 @@
     <br />
 
     <p>
-      Hi, I'm Lakshman. I do crypto/blockchain R&D, largely around Ethereum 2.0,
-      funded by the
+      Hi, I'm Lakshman. I do Eth 2.0 ecosystem development and research at the
       <a href="https://ethereum.org/">Ethereum Foundation</a>. I'm interested in
       making sure that the protocol serves the application layer. I also like
       hacking (<a href="https://github.com/lsankar4033/">Github</a>) and (very)
