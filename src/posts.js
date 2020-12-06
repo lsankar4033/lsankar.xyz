@@ -6,6 +6,7 @@ import b5 from "./posts/5.js";
 import b6 from "./posts/6.js";
 import b7 from "./posts/7.js";
 import b8 from "./posts/8.js";
+import b9 from "./posts/9.js";
 
 export default [
   {
@@ -63,5 +64,12 @@ export default [
     body: b8,
     category: "life",
     date: new Date("10/10/20")
+  },
+  {
+    title: "On decentralized Eth2 staking pools",
+    path: "/staking-pools",
+    body: b9,
+    category: "crypto",
+    date: new Date("12/07/20")
   }
 ];
