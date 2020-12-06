@@ -128,4 +128,8 @@ Decentralized staking pools make it possible for users with <32ETH to participat
 And I'd be remiss if I didn't mention that the EF is looking to support people building for the staking community. If you're interested, apply <a href="https://ethereum.org/en/eth2/get-involved/staking-community-grants/">here</a> or reach <a href="https://twitter.com/lakshmansankar">out to me directly</a>.
 </p>
 <br />
+
+<em>
+Thanks to <a href="https://twitter.com/tonysheng">Tony Sheng</a> for feedback on an early draft.
+</em>
 `;
