@@ -24,6 +24,13 @@ def md_to_html(md_file, out_file):
             out_html += '<br />\n'
             out_html += '<br />\n'
 
+        elif line.startswith("## "):
+            out_html += '<br />\n'
+            out_html += '<h3 id="title">'
+            out_html += line[3:]
+            out_html += '</h3>\n'
+            out_html += '<br />\n'
+
         else:
             out_html += '<p>\n'
             out_html += line

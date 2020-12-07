@@ -13,7 +13,7 @@ The birth of a new chain is an exciting thing. So early in its life, it's hard t
 </p>
 <br />
 <p>
-Participating in Eth2 as a staker now is high risk/high reward. The inflation rewards are high while the total stake is low, but you're locking up an asset that has real use (ETH) for one that currently doesn't (bETH) and won't until a number of technical advances are made over the next year or so (please, don't quote me on that).
+Participating in Eth2 as a staker now is high risk/high reward. The inflation rewards are high while the total stake is low, but you're locking up your ETH until/if the merge of Eth1 and Eth2 is successful.
 </p>
 <br />
 <p>
@@ -25,9 +25,7 @@ Decentralized staking pools have been popping up to make it possible for smaller
 </p>
 <br />
 <br />
-
-<h3 id='title'>
-How do they work?
+<h3 id="title">How do they work?
 </h3>
 <br />
 <p>
@@ -35,15 +33,15 @@ Feature sets and specifics in design vary, but the 10,000 foot view of decentral
 </p>
 <br />
 
-
 <img src="https://i.imgur.com/bljGe83.png">
+
 <br />
 <p>
 Users deposit ETH into a pool contract that keeps track of who deposited how much. They're awarded an ERC20 token based on how much they've deposited.
 </p>
 <br />
 <p>
-Node providers register their Eth2 pubkey in the pool contract. Once enough user ETH is pooled, the pool contract makes a deposit in the Eth2 deposit contract specifying a node provider's Eth2 pubkey for validation. The node provider can now run a validator staking that deposit.
+Node providers register their Eth2 pubkey in the pool contract. Once enough user ETH is pooled, the pool contract makes a deposit in the Eth2 deposit contract specifying a node provider's Eth2 pubkey for validation.  The node provider can now run a validator staking that deposit.
 </p>
 <br />
 <p>
@@ -59,9 +57,7 @@ Unfortunately, any pools that are live on mainnet today have a point of massive 
 </p>
 <br />
 <br />
-
-<h3 id='title'>
-Why withdrawals to Eth1 are important
+<h3 id="title">Why withdrawals to Eth1 are important
 </h3>
 <br />
 <p>
@@ -69,7 +65,7 @@ How do you know, as a node provider or user of a staking pool, that you'll be aw
 </p>
 <br />
 <p>
-The reality lies in an important piece of data that is stored with any deposit made to the Eth2 deposit contract: the <a href="https://github.com/ethereum/eth2.0-specs/blob/dev/specs/phase0/deposit-contract.md#withdrawal-credentials">withdrawal credentials</a>. This piece of data serves as a commitment that Eth2 validators are expected to follow in deciding who is ultimately given access to all ETH accrued by its deposit.
+The reality lies in an important piece of data that is stored with any deposit made to the Eth2 deposit contract: the <a href="https://github.com/ethereum/eth2.0-specs/blob/dev/specs/phase0/deposit-contract.md#withdrawal-credentials">withdrawal credentials</a>.  This piece of data serves as a commitment that Eth2 validators are expected to follow in deciding who is ultimately given access to all ETH accrued by its deposit.
 </p>
 <br />
 <p>
@@ -81,10 +77,11 @@ Thus, the withdraw flow from the staking pool will look like this:
 </p>
 <br />
 
-<img src="https://i.imgur.com/pxFA4v7.png">
+<img src="https://i.imgur.com/nClfD78.png">
+
 <br />
 <p>
-This creates a point of centralization at the withdrawal of staking pool ETH. Someone needs to operate those withdrawal validators and custody funds before users and node providers are compensated. Furthermore, those users and node providers are implicitly trusting that the entity controlling those validators will repay them properly!
+This creates a point of centralization at the withdrawal of staking pool ETH.  Someone needs to operate those withdrawal validators and custody funds before users and node providers are compensated. Furthermore, those users and node providers are implicitly trusting that the entity controlling those validators' keys will repay them properly!
 </p>
 <br />
 <p>
@@ -96,14 +93,15 @@ Now, what if you could specify an Eth1 address to withdraw to? Now the staking p
 </p>
 <br />
 
-<img src="https://i.imgur.com/sRi4emm.png">
+<img src="https://i.imgur.com/gHIMfGb.png">
+
 <br />
 <p>
 Because this withdrawal contract can be written *today*, users can understand its logic and know that they will be paid out properly if the merge happens properly. They don't have to rely on good behavior of the company that wrote the pool contract. Furthermore, no one has to custody the funds at withdraw time, reducing some centralization/regulatory risk.
 </p>
 <br />
 <p>
-Fortunately, making Eth1 addresses specifiable at deposit time is actively <a href="https://ethresear.ch/t/simple-eth1-withdrawals-beacon-chain-centric/8256">being worked on</a>. Note that this is more of a social consensus than technical problem right now. It amounts to getting enough agreement around how to set Eth1 withdrawal addresses today (i.e. via an <a href="https://eips.ethereum.org/">EIP</a> that the community trust the future merge implementers to adhere to it.
+Fortunately, making Eth1 addresses specifiable at deposit time is actively <a href="https://ethresear.ch/t/simple-eth1-withdrawals-beacon-chain-centric/8256">being worked on</a>. Note that this is more of a social consensus than technical problem right now. It amounts to getting enough agreement around how to set Eth1 withdrawal addresses today (i.e. via an <a href="https://eips.ethereum.org/">EIP</a>) that the community trust the future merge implementers to adhere to it.
 </p>
 <br />
 <p>
@@ -111,9 +109,7 @@ Many of the more prudent staking pool projects are delaying launch for this reas
 </p>
 <br />
 <br />
-
-<h3 id='title'>
-The Eth2 staking ecosystem is coming
+<h3 id="title">The Eth2 staking ecosystem is coming
 </h3>
 <br />
 <p>
@@ -130,6 +126,6 @@ And I'd be remiss if I didn't mention that the EF is looking to support people b
 <br />
 
 <em>
-Thanks to <a href="https://twitter.com/tonysheng">Tony Sheng</a> for feedback on an early draft.
+  Thanks to <a href="https://twitter.com/dannyryan">Danny Ryan</a> and <a href="https://twitter.com/tonysheng">Tony Sheng</a> for comments/review.
 </em>
 `;
