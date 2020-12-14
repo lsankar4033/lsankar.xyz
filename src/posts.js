@@ -7,6 +7,7 @@ import b6 from "./posts/6.js";
 import b7 from "./posts/7.js";
 import b8 from "./posts/8.js";
 import b9 from "./posts/9.js";
+import b10 from "./posts/10.js";
 
 export default [
   {
@@ -71,5 +72,12 @@ export default [
     body: b9,
     category: "crypto",
     date: new Date("12/07/20")
+  },
+  {
+    title: "Legis and Curis",
+    path: "/legis-curis",
+    body: b10,
+    category: "life",
+    date: new Date("12/14/20")
   }
 ];
