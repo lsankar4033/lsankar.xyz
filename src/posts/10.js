@@ -17,7 +17,7 @@ Within these highly competitive, ambitious environments, I've found people to mo
 </p>
 <br />
 <p>
-Let's call those achievers that are focused legibility <strong>legis</strong> and those that focused on curiosity <strong>curis</strong>.
+Let's call those achievers that are focused on legibility <strong>legis</strong> and those that focused on curiosity <strong>curis</strong>.
 </p>
 <br />
 <br />
