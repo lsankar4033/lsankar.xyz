@@ -74,7 +74,7 @@ export default [
     date: new Date("12/07/20")
   },
   {
-    title: "Legis and Curis",
+    title: "Legibility and Curiosity",
     path: "/legis-curis",
     body: b10,
     category: "life",
