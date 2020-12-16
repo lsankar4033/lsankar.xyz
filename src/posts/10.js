@@ -53,7 +53,7 @@ In the terminology of <a href="https://en.wikipedia.org/wiki/The_Structure_of_Sc
 </h3>
 <br />
 <p>
-<strong>curis</strong> are driven by internal desires. They want to be smarter, to understand the world better, or to change the world to align with their principles. Often, the life and career of a <strong>curi</strong> is hard to parse; '<strong>legi</strong> categories' like work, family, leisure, and philanthropy may be served by an intersecting set of activities and initiatives. For example, parts of a curi's work might also be play and other parts may be philanthropic. Furthermore, because <strong>curis</strong> don't necessarily spend effort on being legible, their careers may look flighty or fickle to a legi. A connection discovered by a <strong>curi</strong> might not appear as such to the rest of society yet.
+<strong>curis</strong> are driven by internal desires. They want to be smarter, to understand the world better, or to change the world to align with their principles. Often, the life and career of a <strong>curi</strong> is hard to parse; '<strong>legi</strong> categories' like work, family, leisure, and philanthropy may be served by an intersecting set of activities and initiatives. For example, parts of a <strong>curi's</strong> work might also be play and other parts may be philanthropic. Furthermore, because <strong>curis</strong> don't necessarily spend effort on being legible, their careers may look flighty or fickle to a legi. A connection discovered by a <strong>curi</strong> might not appear as such to the rest of society yet.
 </p>
 <br />
 <p>
@@ -101,11 +101,11 @@ The <strong>curis</strong> enjoy spending time with each other as well. They're 
 </p>
 <br />
 <p>
-Sometimes <strong>legis</strong> enjoy spending time with <strong>curis</strong>. If a <strong>curi</strong> has achieved legible success, <strong>legis</strong> will want in on the magic. They'll want to know how they can reproduce the curi's path. <strong>curi</strong> paths sometimes lead them through a <a href="https://www.amazon.com/dp/B076NS2JSW/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1">Third Door</a> and <strong>legis</strong> will want to know how to harness the same shortcuts.
+Sometimes <strong>legis</strong> enjoy spending time with <strong>curis</strong>. If a <strong>curi</strong> has achieved legible success, <strong>legis</strong> will want in on the magic. They'll want to know how they can reproduce the <strong>curi's</strong> path. <strong>curi</strong> paths sometimes lead them through a <a href="https://www.amazon.com/dp/B076NS2JSW/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1">Third Door</a> and <strong>legis</strong> will want to know how to harness the same shortcuts.
 </p>
 <br />
 <p>
-On the other hand, <strong>curis</strong> don't usually enjoy spending time with <strong>legis</strong>. Sometimes the power <strong>legis</strong> have can be leveraged for a curi's wants, but normal <strong>legi</strong> conversation doesn't interest <strong>curis</strong>. <strong>curis</strong> would rather push on ideas than engage in posture talk. Status games are boring to <strong>curis</strong>.
+On the other hand, <strong>curis</strong> don't usually enjoy spending time with <strong>legis</strong>. Sometimes the power <strong>legis</strong> have can be leveraged for a <strong>curi's</strong> wants, but normal <strong>legi</strong> conversation doesn't interest <strong>curis</strong>. <strong>curis</strong> would rather push on ideas than engage in posture talk. Status games are boring to <strong>curis</strong>.
 </p>
 <br />
 <br />
