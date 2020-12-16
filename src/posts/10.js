@@ -33,7 +33,7 @@ Seeking legibility is a great strategy for success because a legible life grants
 </p>
 <br />
 <p>
-The downside of being a <strong>legi</strong> is lack of depth. The person who seeks to be eligible is disincentivized from going to places that noone else has been before (and are thus hard to describe). They're unlikely to make new connections or discoveries. They'll seem 'great' at the things they pursue, but never 'visionary'.
+The downside of being a <strong>legi</strong> is lack of depth. The person who seeks to be legible is disincentivized from going to places that noone else has been before (and are thus hard to describe). They're unlikely to make new connections or discoveries. They'll seem 'great' at the things they pursue, but never 'visionary'.
 </p>
 <br />
 <p>
