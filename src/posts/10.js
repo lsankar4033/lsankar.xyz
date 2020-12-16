@@ -117,7 +117,7 @@ Sadly, I don't have a pithy conclusion to make here. I just find the language of
 </p>
 <br />
 <p>
-I started writing this essay to better examine why a recent conversation with an old <strong>legi</strong> friend was so boring to me. As you may have guessed, I'm a curi.
+I started writing this essay to better examine why a recent conversation with an old <strong>legi</strong> friend was so boring to me. As you may have guessed, I lean curi.
 </p>
 <br />
 `;
