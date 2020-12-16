@@ -1,6 +1,6 @@
 export default `
 <br />
-<h2 id="title">Legis and Curis
+<h2 id="title">Legibility and Curiosity
 </h2>
 <br />
 <br />
