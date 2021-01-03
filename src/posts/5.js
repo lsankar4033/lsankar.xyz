@@ -73,7 +73,7 @@ This is almost tautological, but I find it descriptive and useful. Both in under
 <br />
 
 <p>
-I shouldn't close without sharing (my interpretation) of Nietzsche's suggestion in the face of this. Reframe your past as a <strong>product</strong> of your will to power. If you know that it was you, acting out of free will who made all of your past happen (which is, fundamentally, true), it's hard to feel anything but connected with it.
+I shouldn't close without sharing (my interpretation of) Nietzsche's suggestion in the face of this. Reframe your past as a <strong>product</strong> of your will to power. If you know that it was you, acting out of free will who made all of your past happen (which is, fundamentally, true), it's hard to feel anything but connected with it.
 </p>
 
 <br />

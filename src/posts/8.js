@@ -21,7 +21,7 @@ This is an exhausting realization.
 </p>
 <br />
 <p>
-The more your brain is involved in the churn of internet conversation, the harder it is to do deep work. The harder it is to push on an idea creatively or experience genuine discovery. But being involved in the churn of internet conversation is a source of great leverage. We live in a world of information abundance; no one brain can know everything. If you're able to harness the power of other brains on the internet, you're able to know and affect much more in the world. Internet conversation isn't *just* distraction. It's also a means to get ahead if wielded properly.
+The more your brain is involved in the churn of internet conversation, the harder it is to do deep work. The harder it is to push on an idea creatively or experience genuine discovery. But being involved in the churn of internet conversation is a source of great leverage. We live in a world of information abundance; no one brain can know everything. If you're able to harness the power of other brains on the internet, you're able to know and affect much more in the world. Internet conversation isn't <em>just</em> distraction. It's also a means to get ahead if wielded properly.
 </p>
 <br />
 <p>
