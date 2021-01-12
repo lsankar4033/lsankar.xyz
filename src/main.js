@@ -2,7 +2,9 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import vuetify from "./plugins/vuetify";
+import { VueMailchimpEmailSignupForm } from "vue-mailchimp-email-signup-form";
 
+Vue.component("vue-mailchimp-email-signup-form", VueMailchimpEmailSignupForm);
 Vue.config.productionTip = false;
 
 new Vue({

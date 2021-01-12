@@ -12,6 +12,7 @@
     "core-js": "^2.6.5",
     "express": "4.17.1",
     "vue": "^2.6.10",
+    "vue-mailchimp-email-signup-form": "1.1.2",
     "vue-router": "^3.0.3",
     "vuetify": "^2.0.0"
   },

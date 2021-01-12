@@ -16,6 +16,13 @@
           <router-view id="content" />
         </v-col>
       </v-row>
+
+      <vue-mailchimp-email-signup-form
+        :element-id="'email-signup'"
+        :url="
+          'https://gmail.us7.list-manage.com/subscribe/post?u=1417363863053479cba16f5df&id=e02324eaa4'
+        "
+      />
     </v-container>
   </div>
 </template>
