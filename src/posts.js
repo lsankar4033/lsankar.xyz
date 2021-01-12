@@ -8,6 +8,7 @@ import b7 from "./posts/7.js";
 import b8 from "./posts/8.js";
 import b9 from "./posts/9.js";
 import b10 from "./posts/10.js";
+import b11 from "./posts/11.js";
 
 export default [
   {
@@ -79,5 +80,12 @@ export default [
     body: b10,
     category: "life",
     date: new Date("12/14/20")
+  },
+  {
+    title: "Satoshi's Dreams",
+    path: "/satoshis-dreams",
+    body: b11,
+    category: "crypto",
+    date: new Date("01/11/21")
   }
 ];

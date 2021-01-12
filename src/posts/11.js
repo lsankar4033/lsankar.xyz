@@ -1,0 +1,31 @@
+export default `
+<br />
+<h2 id="title">Satoshi's Dreams
+</h2>
+<br />
+<br />
+<p>
+As a physics undergrad, one of my favorite books was <a href="https://en.wikipedia.org/wiki/Einstein%27s_Dreams">Einstein's Dreams</a> by Alan Lightman. In it, the author imagines a fictional version of Einstein in the weeks leading to his publication of the theory of special relativity.
+</p>
+<br />
+<p>
+Special relativity was paradigm-shifting in part because it totally screwed with the contemporary conception of how time 'worked.' Einstein showed that an entity's perception of time changed depending on how fast that entity was moving (see <a href="https://en.wikipedia.org/wiki/Lorentz_transformation">here</a> for more specificity). It's still a mind-blowing result to ponder and it's easy to imagine how thinking about it really screwed with Einstein's head.
+</p>
+<br />
+<p>
+In the book, Einstein is plagued with dreams about different versions of the world, each supposing a different tweak on the rules of time. In one version, time flows more slowly the farther one is from the center of earth. People in this world strive to live on mountaintops and status is conferred to those that live 'higher' than others. In another, cause and effect sometimes happen in reverse order. In this world, scientists feel helpless and artists feel joyous. People mostly choose to live in the moment. In yet another, time is a sense, like taste or touch. Those with more 'refined' palates experience events with more motion and temporal details than those who are 'time-deaf'.
+</p>
+<br />
+<p>
+This meta-perspective, of imagining possible futures based on slight tweaks to the rules, seems timely for crypto. We're sitting at an interesting inflection: 2020 showed us that smart contracts are interesting (DeFi Summer), but there are many possible ways the protocol layer might shake out. New layer 1s, rollups, application-specific chains, and various other structural components could play a part and how this shakes out has implications for what crypto *feels* like 10 years from today.
+</p>
+<br />
+<p>
+Every project that has a stake in that future will be eager to sell its version of the future as a concrete inevitability; I think we'd all make better decisions if we adopted Lightman's perspective instead. Consider multiple possible futures at once and construct your own (ever-changing) probability distributon across those futures.
+</p>
+<br />
+<p>
+Resist myopia and consider Satoshi's dreams.
+</p>
+<br />
+`;
