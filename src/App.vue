@@ -22,18 +22,18 @@
       <br />
 
       <div id="subscribe">
-      <p>
-        Interested in being notified when I write a new post? Subscribe below:
-      </p>
-      <br />
-      <br />
+        <p>
+          Interested in being notified when I write a new post? Subscribe below:
+        </p>
+        <br />
+        <br />
 
-      <vue-mailchimp-email-signup-form
-        :element-id="'email-signup'"
-        :url="
-          'https://gmail.us7.list-manage.com/subscribe/post?u=1417363863053479cba16f5df&id=e02324eaa4'
-        "
-      />
+        <vue-mailchimp-email-signup-form
+          :element-id="'email-signup'"
+          :url="
+            'https://gmail.us7.list-manage.com/subscribe/post?u=1417363863053479cba16f5df&id=e02324eaa4'
+          "
+        />
       </div>
     </v-container>
   </div>
@@ -64,7 +64,6 @@ export default {
   font-size: 14px;
   background-color: #999;
 }
-
 
 #email-signupmc-embedded-subscribe:hover {
   background-color: #aaa;
