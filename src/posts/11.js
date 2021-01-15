@@ -25,6 +25,10 @@ Every project that has a stake in that future will be eager to sell its version 
 </p>
 <br />
 <p>
+Consider the digital futures that Satoshi Nakomoto was dreaming of in the weeks leading up to the release of the Bitcoin whitepaper.
+</p>
+<br />
+<p>
 I expect that I'll refer back to this way of thinking in future posts.
 </p>
 <br />
