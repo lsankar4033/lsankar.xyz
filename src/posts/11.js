@@ -17,7 +17,7 @@ In the book, Einstein is plagued with dreams about different versions of the wor
 </p>
 <br />
 <p>
-This meta-perspective, of imagining possible futures based on slight tweaks to the rules, seems timely for crypto. We're sitting at an interesting inflection: 2020 showed us that smart contracts are interesting (DeFi Summer), but there are many possible ways the protocol layer might shake out. New layer 1s, rollups, application-specific chains, and various other structural components could play a part and how this shakes out has implications for what crypto *feels* like 10 years from today.
+This meta-perspective, of imagining possible futures based on slight tweaks to the rules, seems timely for crypto. We're sitting at an interesting inflection: 2020 showed us that smart contracts are interesting (DeFi Summer), but there are many possible ways the protocol layer might shake out. New layer 1s, rollups, application-specific chains, and various other structural components could play a part and this has implications for what crypto *feels* like 10 years from today.
 </p>
 <br />
 <p>
@@ -25,7 +25,7 @@ Every project that has a stake in that future will be eager to sell its version 
 </p>
 <br />
 <p>
-Resist myopia and consider Satoshi's dreams.
+I expect that I'll refer back to this way of thinking in future posts.
 </p>
 <br />
 `;
