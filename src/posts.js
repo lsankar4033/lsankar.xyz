@@ -9,6 +9,7 @@ import b8 from "./posts/8.js";
 import b9 from "./posts/9.js";
 import b10 from "./posts/10.js";
 import b11 from "./posts/11.js";
+import b12 from "./posts/12.js";
 
 export default [
   {
@@ -87,5 +88,12 @@ export default [
     body: b11,
     category: "crypto",
     date: new Date("01/11/21")
+  },
+  {
+    title: "Mimetic Reading",
+    path: "/mimetic-reading",
+    body: b12,
+    category: "life",
+    date: new Date("01/26/21")
   }
 ];
