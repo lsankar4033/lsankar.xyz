@@ -122,15 +122,11 @@ This brings us to the role of an ecodev.
 </p>
 <br />
 <br />
-<h3 id="title">The role of an ecodev
+<h3 id="title">How do you support an ecosystem?
 </h3>
 <br />
 <p>
-The role of an ecodev is to increase the probability that an ecosystem thrives in the long run.
-</p>
-<br />
-<p>
-Ecodev is an incredibly vital function in the early stages of an ecosystem (which the entire crypto industry is). A healthy ecosystem is the difference b/w sinking into obscurity and encompassing trillions of dollars of value in the decentralized future.
+The role of ecodev is to increase the probability that an ecosystem thrives in the long run.
 </p>
 <br />
 <p>
@@ -142,15 +138,11 @@ This is all really abstract still; what are some of the things an ecodev can do 
 </p>
 <br />
 <p>
-For one, an ecodev can keep an eye out for nascent species that could be valuable to the ecosystem and help
+Whether or not a valuable nascent species gets the help it needs could determine its ability to go from <a href="https://en.wikipedia.org/wiki/Zero_to_One">zero to one</a>. Funding is a part of this. So are connections. An ecodev might be able to recognize that if two people or projects are brought into contact, something new and valuable will emerge. An ecodev may even build a prototype or write an article that makes an idea accessible and extendable him or herself.
 </p>
 <br />
 <p>
-them get from <a href="https://en.wikipedia.org/wiki/Zero_to_One">zero to one</a>. Funding is a part of this. So are connections. An ecodev might be able to recognize that if two people or projects are brought into contact, something new and valuable will emerge. An ecodev may even build a prototype or write an article that makes an idea accessible and extendable him or herself.
-</p>
-<br />
-<p>
-Ecodevs can also make sure the ecosystem doesn't get too siloed. If two entities would each be better served if in communication with one another, an ecodev, with his/her broad knowledge of the ecosystem, can set up those lines of communication. Recognizing the need for and setting up standards and specs also serves this purpose. This is frequently necessary in fields such as ours: the nature of technical work is that it requires great focus. It's very natural for information to get siloed even within the teams doing the best work.
+Ecodevs can also help prevent an ecosystem from getting too siloed. If two entities would each be better served if in communication with one another, an ecodev, with his/her broad knowledge of the ecosystem, can set up those lines of communication. Recognizing the need for and setting up standards and specs also serves this purpose. This is frequently necessary in fields such as ours: the nature of technical work is that it requires great focus. It's very natural for information to get siloed even within the teams doing the best work.
 </p>
 <br />
 <p>
