@@ -181,4 +181,8 @@ If you're building something cool in the Ethereum ecosystem, you have an unconve
 We're still in the early days and most of the cool stuff is yet to come. I'm excited to build it together.
 </p>
 <br />
+
+<em>
+Thanks to <a href="https://twitter.com/0xstark">Josh Stark</a> and <a href="https://twitter.com/dannyryan">Danny  Ryan</a> for their thoughts/comments.
+</em>
 `;
