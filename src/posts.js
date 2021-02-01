@@ -10,6 +10,7 @@ import b9 from "./posts/9.js";
 import b10 from "./posts/10.js";
 import b11 from "./posts/11.js";
 import b12 from "./posts/12.js";
+import b13 from "./posts/13.js";
 
 export default [
   {
@@ -95,5 +96,12 @@ export default [
     body: b12,
     category: "life",
     date: new Date("01/26/21")
+  },
+  {
+    title: "Developing crypto ecosystems",
+    path: "/crypto-ecosystems",
+    body: b13,
+    category: "crypto",
+    date: new Date("01/31/21")
   }
 ];
