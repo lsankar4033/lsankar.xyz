@@ -11,6 +11,7 @@ import b10 from "./posts/10.js";
 import b11 from "./posts/11.js";
 import b12 from "./posts/12.js";
 import b13 from "./posts/13.js";
+import b14 from "./posts/14.js";
 
 export default [
   {
@@ -103,5 +104,12 @@ export default [
     body: b13,
     category: "crypto",
     date: new Date("01/31/21")
+  },
+  {
+    title: "Keeping up with crypto",
+    path: "/keeping-up-crypto",
+    body: b14,
+    category: "crypto",
+    date: new Date("06/16/21")
   }
 ];
