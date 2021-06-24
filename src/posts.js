@@ -12,6 +12,7 @@ import b11 from "./posts/11.js";
 import b12 from "./posts/12.js";
 import b13 from "./posts/13.js";
 import b14 from "./posts/14.js";
+import b15 from "./posts/15.js";
 
 export default [
   {
@@ -111,5 +112,12 @@ export default [
     body: b14,
     category: "crypto",
     date: new Date("06/16/21")
+  },
+  {
+    title: "Inter-chain and Intra-chain MEV",
+    path: "/inter-intra-mev",
+    body: b15,
+    category: "crypto",
+    date: new Date("06/24/21")
   }
 ];
