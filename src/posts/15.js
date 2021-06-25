@@ -57,7 +57,7 @@ Why even talk about inter-chain MEV? It seems like the fundamentally 'less inter
 </p>
 <br />
 <p>
-The main argument that MEV is 'inevitable' has to do with the subjectivity of 'fairness' in what people call fair ordering protocols (link to chainlink research). To be honest, I hate the word 'fairness' here. It suggests that there's some global, moral notion of a correctness. A better phrase might be *deterministic random* ordering.
+The main argument that MEV is 'inevitable' has to do with the subjectivity of 'fairness' in what people call <a href="https://blog.chain.link/chainlink-fair-sequencing-services-enabling-a-provably-fair-defi-ecosystem/">fair ordering protocols</a>. To be honest, I hate the word 'fairness' here. It suggests that there's some global, moral notion of a correctness. A better phrase might be *deterministic random* ordering.
 </p>
 <br />
 <p>
