@@ -1,6 +1,6 @@
 export default `
 <br />
-<h2 id="title">On dichotomies, trichotomies, and categorization
+<h2 id="title">Dichotomies, trichotomies, and categorization
 </h2>
 <br />
 <br />
