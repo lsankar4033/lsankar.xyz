@@ -122,8 +122,8 @@ export default [
     date: new Date("06/24/21")
   },
   {
-    title: "Dichotomies, trichotomies, and categorization",
-    path: "/dichotomies-trichotomies-categorization",
+    title: "On categorization",
+    path: "/on-categorization",
     body: b16,
     category: "life",
     date: new Date("07/07/21")
