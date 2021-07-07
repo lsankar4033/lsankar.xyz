@@ -13,6 +13,7 @@ import b12 from "./posts/12.js";
 import b13 from "./posts/13.js";
 import b14 from "./posts/14.js";
 import b15 from "./posts/15.js";
+import b16 from "./posts/16.js";
 
 export default [
   {
@@ -119,5 +120,12 @@ export default [
     body: b15,
     category: "crypto",
     date: new Date("06/24/21")
+  },
+  {
+    title: "On dichotomies, trichotomies, and categorization",
+    path: "/dichotomies-trichotomies-categorization",
+    body: b16,
+    category: "life",
+    date: new Date("07/07/21")
   }
 ];
