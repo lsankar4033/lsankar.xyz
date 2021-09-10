@@ -14,6 +14,7 @@ import b13 from "./posts/13.js";
 import b14 from "./posts/14.js";
 import b15 from "./posts/15.js";
 import b16 from "./posts/16.js";
+import b17 from "./posts/17.js";
 
 export default [
   {
@@ -127,5 +128,12 @@ export default [
     body: b16,
     category: "life",
     date: new Date("07/07/21")
+  },
+  {
+    title: "The tradeoffs of cross-chain communication",
+    path: "/tradeoffs-ccc",
+    body: b17,
+    category: "crypto",
+    date: new Date("09/10/21")
   }
 ];
