@@ -25,7 +25,7 @@
       In the past, I've been an engineer, data scientist, and startup founder.
       Google me to find me on your favorite professional profile website, but
       don't expect it to be up to date. Better to just see what I'm up to on
-      <a href="https://twitter.com/lakshmansankar">Twitter</a>.
+      <a href="https://twitter.com/lakshmansankar">Twitter</a> or here.
     </p>
 
     <br />
