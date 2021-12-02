@@ -3,11 +3,15 @@
     <br />
 
     <p>
-      Hi, I'm Lakshman. I do R&D at the
-      <a href="https://ethereum.org/">Ethereum Foundation</a>. I'm interested in
-      making sure that the protocol serves the application layer. I also like
-      hacking (<a href="https://github.com/lsankar4033/">Github</a>) and (very)
-      occasionally angel investing/consulting with teams that inspire me.
+      Hi, I'm Lakshman. I'm an <a href="https://ethereum.org/">Etherean</a>. I've spent the last couple years helping with protocol and ecosystem R&D at the Ethereum Foundation.
+      I'm currently deep in the 'crypto' startup idea maze. The industry is evolving and the time couldn't be better to double down on a thesis and build something of decade-scale importance.
+    </p>
+
+    <br />
+
+    <p>
+      If you want to work with me, get in touch.
+      I also occassionally invest in or advise teams that inspire me and happy to connect in that capacity as well.
     </p>
 
     <br />
@@ -25,16 +29,16 @@
       In the past, I've been an engineer, data scientist, and startup founder.
       Google me to find me on your favorite professional profile website, but
       don't expect it to be up to date. Better to just see what I'm up to on
-      <a href="https://twitter.com/lakshmansankar">Twitter</a> or here.
+      Twitter or this site.
     </p>
 
     <br />
 
     <p>
-      If you want to connect,
-      <a href="https://twitter.com/lakshmansankar">Twitter</a> and
-      <a href="mailto:lsankar4033@gmail.com">e-mail</a> are inboxes I frequent.
-      Please no job offers or ads.
+      Reach me on
+      <a href="https://twitter.com/lakshmansankar">Twitter</a>,
+      <a href="https://github.com/lsankar4033/">Github</a>, and
+      <a href="mailto:lsankar4033@gmail.com">e-mail</a>
     </p>
 
     <br />
