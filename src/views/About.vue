@@ -8,6 +8,8 @@
       Ethereum Foundation.
     </p>
 
+    <br />
+
     <p>
       Most recently, I drove the thinking around supporting the budding
       proof-of-stake ecosystem after the launch of the
@@ -19,6 +21,8 @@
       >. I was also deeply involved in staking pool R&D and thinking through how
       MEV affects L1 protocol development.
     </p>
+
+    <br />
 
     <p>
       I'm currently deep in the 'crypto' startup idea maze. The industry is
