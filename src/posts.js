@@ -15,6 +15,7 @@ import b14 from "./posts/14.js";
 import b15 from "./posts/15.js";
 import b16 from "./posts/16.js";
 import b17 from "./posts/17.js";
+import b18 from "./posts/18.js";
 
 export default [
   {
@@ -135,5 +136,12 @@ export default [
     body: b17,
     category: "crypto",
     date: new Date("09/10/21")
+  },
+  {
+    title: "Tech leadership",
+    path: "/tech-leadership",
+    body: b18,
+    category: "life",
+    date: new Date("02/11/22")
   }
 ];

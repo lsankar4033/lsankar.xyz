@@ -1,0 +1,30 @@
+export default `
+<br />
+<h2 id="title">Tech leadership
+</h2>
+<br />
+<br />
+<p>
+Technology leaders are often maligned for stretching the truth. Elon Musk is the classic contemporary example. Elizabeth Holmes, another (considerably more malignant) one.
+</p>
+<br />
+<p>
+Building technology requires looking forward. It requires having a notion of ‘where things are going’ that can be informed by but not defined by ‘where things are today’. If every ounce of technology leadership were expressed in public markets, public markets could discover technology on their own.
+</p>
+<br />
+<p>
+Given this, a technology leader often finds herself in a situation where multiple other humans are looking to her to solve a problem that can’t already be solved. Or multiple other capital-infused workstreams she has purview over depend on knowing an unknown that (if she’s being honest with herself) is still unknown.
+</p>
+<br />
+<p>
+If there’s anything to be celebrated about good tech leadership, it’s this in my opinion. Society must collectively recognize the virtue of taking on these massive accountability risks. If we still want humans to move forward, that is.
+</p>
+<br />
+<p>
+We like shaming Elon Musk for his aggressive, perhaps fraudulent timelines, but perhaps these were just an unfortunate side effect of the uncertainty he was bearing in taking on the noble task of striding towards the future. And maybe the cult of personality he’s built in the meanwhile was a deliberate defense mechanism against public opinion.
+</p>
+<br />
+<p>
+If you’re a tech leader, don’t be alarmed when others depend on you for solving an unsolvable problem. Just keep looking forward.
+</p>
+`;
