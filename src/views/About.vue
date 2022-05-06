@@ -11,7 +11,7 @@
     <br />
 
     <p>
-      Most recently, I drove the thinking around supporting the budding
+      Most recently, I drove some thinking around supporting the budding
       proof-of-stake ecosystem after the launch of the
       <a href="https://ethereum.org/en/eth2/beacon-chain/">beacon chain</a>. One
       piece of legible work to come out of this was
@@ -19,15 +19,15 @@
         href="https://blog.ethereum.org/2021/02/09/esp-staking-community-grantee-announcement/"
         >a series of grants</a
       >. I was also deeply involved in staking pool R&D and thinking through how
-      MEV affects L1 protocol development.
+      MEV affects L1 protocol development, and ZKP app R&D.
     </p>
 
     <br />
 
     <p>
       I'm currently deep in the 'crypto' startup idea maze. The industry is
-      evolving and the time couldn't be better to double down on a thesis and
-      build something of decade-scale importance.
+      evolving and the time couldn't be better to double down on a vision and
+      build something of century-scale importance.
     </p>
 
     <br />
@@ -36,24 +36,6 @@
       If you want to work with me, get in touch. I also occassionally invest in
       or advise teams that inspire me and am happy to connect in that capacity
       as well.
-    </p>
-
-    <br />
-
-    <p>
-      When it comes to building a free society, I believe there's a bad way and
-      a good way to build systems. I'm committed to exploring the good way. I
-      think we should all have a choice in which systems and institutions to be
-      a part of.
-    </p>
-
-    <br />
-
-    <p>
-      In the past, I've been an engineer, data scientist, and startup founder.
-      Google me to find me on your favorite professional profile website, but
-      don't expect it to be up to date. Better to just see what I'm up to on
-      Twitter or this site.
     </p>
 
     <br />
