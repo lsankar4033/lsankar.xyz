@@ -33,9 +33,7 @@
     <br />
 
     <p>
-      If you want to work with me, get in touch. I also occassionally invest in
-      or advise teams that inspire me and am happy to connect in that capacity
-      as well.
+      If you want to work with me, get in touch.
     </p>
 
     <br />
