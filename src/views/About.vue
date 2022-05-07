@@ -11,7 +11,7 @@
     <br />
 
     <p>
-      Most recently, I drove some thinking around supporting the budding
+      Most recently, I drove much of the thinking around supporting the budding
       proof-of-stake ecosystem after the launch of the
       <a href="https://ethereum.org/en/eth2/beacon-chain/">beacon chain</a>. One
       piece of legible work to come out of this was
