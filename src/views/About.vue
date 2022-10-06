@@ -12,9 +12,10 @@
     <br />
 
     <p>
-      I'm currently deep in the 'crypto' startup idea maze. The industry is
-      evolving and the time couldn't be better to double down on a vision and
-      build something *new* of century-scale importance.
+      I'm currently working on <a href="personaelabs.org">Personae Labs</a>.
+      We're building technology and products to better understand how the
+      productionization of new cryptography like zk-SNARKs changes the way we
+      relate online.
     </p>
 
     <br />
