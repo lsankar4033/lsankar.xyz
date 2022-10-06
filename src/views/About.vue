@@ -5,15 +5,16 @@
     <p>
       Hi, I'm Lakshman. I'm an <a href="https://ethereum.org/">Etherean</a>.
       I've spent the last couple years working in R&D and strategy at the
-      Ethereum Foundation. Prior to that, I was a product/engineering leader at a number of silicon valley startups, some of my own included. 
+      Ethereum Foundation. Prior to that, I was a product/engineering leader at
+      a number of silicon valley startups, some of my own included.
     </p>
 
     <br />
-    
+
     <p>
       I'm currently deep in the 'crypto' startup idea maze. The industry is
       evolving and the time couldn't be better to double down on a vision and
-      build something *new* of century-scale importance. 
+      build something *new* of century-scale importance.
     </p>
 
     <br />
