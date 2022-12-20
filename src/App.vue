@@ -5,7 +5,7 @@
         <v-col class="nav" id="nav" :cols="12">
           <router-link to="/">About</router-link>
           |
-          <router-link to="/writing-crypto">Crypto</router-link>
+          <router-link to="/writing-work">Work</router-link>
           |
           <router-link to="/writing">Life</router-link>
           <br />

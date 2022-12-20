@@ -24,7 +24,7 @@ const topLevelRoutes = [
     props: { posts: lifePosts }
   },
   {
-    path: "/writing-crypto",
+    path: "/writing-work",
     component: WritingCrypto,
     props: { posts: cryptoPosts }
   }
