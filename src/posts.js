@@ -17,6 +17,7 @@ import b16 from "./posts/16.js";
 import b17 from "./posts/17.js";
 import b18 from "./posts/18.js";
 import b19 from "./posts/19.js";
+import b20 from "./posts/20.js";
 
 export default [
   {
@@ -151,5 +152,12 @@ export default [
     body: b19,
     category: "crypto",
     date: new Date("05/22/22")
+  },
+  {
+    title: "the excellent IC's dilemma",
+    path: "/excellent-ic",
+    body: b20,
+    category: "life",
+    date: new Date("12/19/22")
   }
 ];
