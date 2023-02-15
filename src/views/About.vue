@@ -14,8 +14,7 @@
     <p>
       I'm currently working on
       <a href="https://personaelabs.org/">Personae Labs</a>. We're building
-      technology and products to better understand how the productionization of
-      new cryptography like zk-SNARKs changes the way we relate online.
+      technology and products around cryptography-native identity.
     </p>
 
     <br />
