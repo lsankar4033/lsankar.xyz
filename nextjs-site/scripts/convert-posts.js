@@ -28,6 +28,7 @@ function htmlToMdx(html, metadata) {
     .replace(/<br\s*\/?>/g, '\n')
     .replace(/<h2[^>]*>([^<]+)<\/h2>/g, '## $1')
     .replace(/<h3[^>]*>([^<]+)<\/h3>/g, '### $1')
+    .replace(/<h4[^>]*>([^<]+)<\/h4>/g, '#### $1')
     .replace(/<p>/g, '')
     .replace(/<\/p>/g, '\n')
     .replace(/<a\s+href="([^"]+)"[^>]*>([^<]+)<\/a>/g, '[$2]($1)')
@@ -35,6 +36,24 @@ function htmlToMdx(html, metadata) {
     .replace(/<em>([^<]+)<\/em>/g, '*$1*')
     .replace(/<strong>([^<]+)<\/strong>/g, '**$1**')
     .replace(/<b>([^<]+)<\/b>/g, '**$1**')
+    // Handle lists properly
+    .replace(/<ul>/g, '')
+    .replace(/<\/ul>/g, '')
+    .replace(/<ol>/g, '')
+    .replace(/<\/ol>/g, '')
+    .replace(/<li>/g, '- ')
+    .replace(/<\/li>/g, '')
+    // Remove other HTML tags that don't have markdown equivalents
+    .replace(/<img[^>]*>/g, (match) => {
+      const srcMatch = match.match(/src="([^"]+)"/);
+      return srcMatch ? `![](${srcMatch[1]})` : '';
+    })
+    .replace(/<div[^>]*>/g, '')
+    .replace(/<\/div>/g, '')
+    .replace(/<span[^>]*>/g, '')
+    .replace(/<\/span>/g, '')
+    .replace(/<section[^>]*>/g, '')
+    .replace(/<\/section>/g, '')
     .replace(/&amp;/g, '&')
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
