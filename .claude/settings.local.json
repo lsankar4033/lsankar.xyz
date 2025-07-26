@@ -10,7 +10,8 @@
       "Bash(ls:*)",
       "Bash(rm:*)",
       "Bash(cat:*)",
-      "Bash(true)"
+      "Bash(true)",
+      "WebFetch(domain:ls.mirror.xyz)"
     ],
     "deny": []
   }
