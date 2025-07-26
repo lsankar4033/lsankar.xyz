@@ -6,7 +6,6 @@ export interface Post {
   slug: string
   title: string
   date: string
-  category: 'work' | 'life'
   content: string
   excerpt?: string
 }
@@ -27,7 +26,6 @@ export function getAllPosts(): Post[] {
         slug,
         title: data.title,
         date: data.date,
-        category: data.category,
         content,
         excerpt: data.excerpt
       } as Post
@@ -38,10 +36,6 @@ export function getAllPosts(): Post[] {
     const dateB = new Date(b.date)
     return dateB.getTime() - dateA.getTime() // Newest first
   })
-}
-
-export function getPostsByCategory(category: 'work' | 'life'): Post[] {
-  return getAllPosts().filter(post => post.category === category)
 }
 
 export function getPostBySlug(slug: string): Post | undefined {
