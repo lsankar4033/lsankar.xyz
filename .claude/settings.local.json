@@ -11,7 +11,8 @@
       "Bash(rm:*)",
       "Bash(cat:*)",
       "Bash(true)",
-      "WebFetch(domain:ls.mirror.xyz)"
+      "WebFetch(domain:ls.mirror.xyz)",
+      "Bash(npm run build:*)"
     ],
     "deny": []
   }
