@@ -47,3 +47,8 @@ export function getPostsByCategory(category: 'work' | 'life'): Post[] {
 export function getPostBySlug(slug: string): Post | undefined {
   return getAllPosts().find(post => post.slug === slug)
 }
+
+export function getAboutContent(): string {
+  const aboutPath = path.join(process.cwd(), 'content/about.md')
+  return fs.readFileSync(aboutPath, 'utf8')
+}
