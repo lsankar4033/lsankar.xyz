@@ -26,7 +26,6 @@ async function createPost() {
   console.log('Create a new blog post\n');
 
   const title = await prompt('Title: ');
-  const category = await prompt('Category (work/life): ');
   const dateStr = await prompt('Date (YYYY-MM-DD) [default: today]: ');
 
   const date = dateStr || new Date().toISOString().split('T')[0];
@@ -35,7 +34,6 @@ async function createPost() {
   const frontmatter = `---
 title: "${title}"
 date: "${date}"
-category: "${category}"
 ---
 
 `;

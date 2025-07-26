@@ -25,21 +25,12 @@ export default function Navigation() {
       </Link>
       <span className="text-gray-400">|</span>
       <Link 
-        href="/work" 
+        href="/writing" 
         className={`hover:text-blue-600 transition-colors ${
-          isActive('/work') ? 'text-blue-600 font-medium' : 'text-gray-700'
+          isActive('/writing') ? 'text-blue-600 font-medium' : 'text-gray-700'
         }`}
       >
-        Work
-      </Link>
-      <span className="text-gray-400">|</span>
-      <Link 
-        href="/life" 
-        className={`hover:text-blue-600 transition-colors ${
-          isActive('/life') ? 'text-blue-600 font-medium' : 'text-gray-700'
-        }`}
-      >
-        Life
+        Writing
       </Link>
     </nav>
   )

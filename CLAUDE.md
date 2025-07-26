@@ -44,16 +44,15 @@ npm run new-post
 
 ### Blog Post System
 - Posts are stored as MDX files in `content/posts/`
-- Each post has frontmatter with title, date, and category
-- Two categories: "work" and "life"
+- Each post has frontmatter with title and date (no categories)
+- All posts are displayed together in the `/writing` section
 - Posts are automatically sorted by date (newest first)
 - Easy creation via `npm run new-post` script
 
 ### Key Files
 - `app/layout.tsx` - Root layout with navigation and fonts
 - `app/page.tsx` - About page (homepage)
-- `app/work/page.tsx` - Work posts listing
-- `app/life/page.tsx` - Life posts listing
+- `app/writing/page.tsx` - All posts listing with compact layout
 - `app/posts/[slug]/page.tsx` - Individual post pages
 - `lib/posts.ts` - Post management utilities
 - `components/Navigation.tsx` - Site navigation
@@ -68,7 +67,6 @@ npm run new-post
 ---
 title: "Post Title"
 date: "2024-01-01"
-category: "work" # or "life"
 ---
 
 Your markdown content here...
@@ -76,7 +74,7 @@ Your markdown content here...
 
 ### Post Processing
 - Posts are processed from MDX to HTML at build time
-- Automatic date sorting and categorization
+- Automatic date sorting (newest first)
 - Support for all standard markdown features
 - Images can be included via standard markdown syntax
 
@@ -116,7 +114,6 @@ When migrating posts from Mirror.xyz to this blog:
 ---
 title: "Post Title"
 date: "YYYY-MM-DD"
-category: "work" # or "life"
 ---
 ```
 
