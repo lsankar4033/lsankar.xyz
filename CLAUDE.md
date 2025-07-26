@@ -4,59 +4,91 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Vue 2 personal website and blog. The owner wants to rewrite it in modern Next.js to be cleaner, more mobile friendly, and require less work to add new posts.
+This is a modern Next.js personal website and blog. The site features a clean, mobile-friendly design with easy blog post management using MDX files.
 
-## Current Architecture
+## Architecture
 
-- **Framework**: Vue 2.6 with Vue Router and Vuetify
-- **Build Tool**: Vue CLI Service
-- **Server**: Express.js static file server
-- **Blog Posts**: Hardcoded as JavaScript files exporting HTML strings
-- **Deployment**: Serves static files from `/dist` directory
+- **Framework**: Next.js 14 with App Router
+- **Styling**: Tailwind CSS with Typography plugin
+- **Fonts**: IBM Plex Sans (body) and Work Sans (headings)
+- **Content**: MDX files for blog posts with frontmatter
+- **TypeScript**: Full TypeScript support throughout
 
 ## Key Commands
 
 ```bash
 # Development server
-npm run serve
+npm run dev
 
 # Production build
 npm run build
 
-# Linting (runs automatically on pre-commit)
-npm run lint
-
 # Start production server
 npm run start
+
+# Linting
+npm run lint
+
+# Create new blog post
+npm run new-post
 ```
 
-## Code Structure
+## Project Structure
+
+### Core Directories
+- `app/` - Next.js app directory with pages and layouts
+- `components/` - React components (Navigation, etc.)
+- `content/posts/` - MDX blog posts with frontmatter
+- `lib/` - Utility functions for post management
+- `scripts/` - Helper scripts for post conversion and creation
 
 ### Blog Post System
-- Posts are stored as individual JS files in `src/posts/` (1.js through 21.js)
-- Each post exports an HTML string as default
-- Posts are imported and configured in `src/posts.js` with metadata (title, path, category, date)
-- Two categories: "life" and "crypto" (shown as "Work" in UI)
-- Posts are sorted by date in descending order
-
-### Routing
-- Main routes defined in `src/router.js`:
-  - `/` - About page
-  - `/writing` - Life posts
-  - `/writing-work` - Work/crypto posts
-  - Individual post routes generated dynamically from posts array
+- Posts are stored as MDX files in `content/posts/`
+- Each post has frontmatter with title, date, and category
+- Two categories: "work" and "life"
+- Posts are automatically sorted by date (newest first)
+- Easy creation via `npm run new-post` script
 
 ### Key Files
-- `src/App.vue`: Main layout with navigation
-- `src/views/About.vue`: About page content
-- `src/views/Writing.vue`: Life posts listing
-- `src/views/WritingCrypto.vue`: Work posts listing
-- `src/views/Post.vue`: Individual post display component
+- `app/layout.tsx` - Root layout with navigation and fonts
+- `app/page.tsx` - About page (homepage)
+- `app/work/page.tsx` - Work posts listing
+- `app/life/page.tsx` - Life posts listing
+- `app/posts/[slug]/page.tsx` - Individual post pages
+- `lib/posts.ts` - Post management utilities
+- `components/Navigation.tsx` - Site navigation
 
-## Migration Considerations for Next.js
+## Content Management
 
-1. **Blog Posts**: Convert HTML string exports to MDX or Markdown files
-2. **Routing**: Use Next.js file-based routing instead of Vue Router
-3. **Styling**: Current app uses Vuetify - consider Tailwind CSS or similar for Next.js
-4. **Static Generation**: Leverage Next.js SSG for blog posts
-5. **Content Management**: Consider using a simpler system like MDX files in a posts directory
+### Adding New Posts
+1. Use `npm run new-post` for interactive creation
+2. Or manually create `.mdx` files in `content/posts/` with proper frontmatter:
+
+```mdx
+---
+title: "Post Title"
+date: "2024-01-01"
+category: "work" # or "life"
+---
+
+Your markdown content here...
+```
+
+### Post Processing
+- Posts are processed from MDX to HTML at build time
+- Automatic date sorting and categorization
+- Support for all standard markdown features
+- Images can be included via standard markdown syntax
+
+## Typography and Design
+- IBM Plex Sans for body text (thoughtful, readable)
+- Work Sans for headings and navigation
+- Reduced font weights for refined appearance
+- Mobile-first responsive design
+- Clean, minimal aesthetic
+
+## Development Notes
+- Uses Next.js static generation for optimal performance
+- All posts are pre-rendered at build time
+- TypeScript ensures type safety throughout
+- Tailwind CSS for consistent styling
