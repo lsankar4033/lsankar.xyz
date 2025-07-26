@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply text-gray-900 antialiased;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+
+  /* Use Work Sans for headings and navigation for subtle contrast */
+  h1, h2, h3, h4, h5, h6, nav {
+    font-family: var(--font-work-sans), sans-serif;
+    letter-spacing: -0.025em;
+  }
+
+  /* Slightly increase font weight for better presence */
+  .prose {
+    font-weight: 400;
+  }
+
+  .prose strong {
+    font-weight: 600;
+  }
+}
