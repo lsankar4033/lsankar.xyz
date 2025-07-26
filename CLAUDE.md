@@ -122,6 +122,7 @@ date: "YYYY-MM-DD"
 - **Link Formatting**: Ensure all links use markdown format, not raw HTML
 - **Twitter Embeds**: Must use proper blockquote structure for rendering
 - **Date Format**: Use ISO format (YYYY-MM-DD) for consistent sorting
+- **Malformed HTML**: Legacy posts may have broken anchor tags that need fixing
 
 ### Content Processing
 - Remove any Mirror.xyz specific styling/components
@@ -129,3 +130,22 @@ date: "YYYY-MM-DD"
 - Preserve emphasis (`*italic*`, `**bold**`) and code blocks
 - Convert HTML lists to markdown format
 - Maintain proper heading hierarchy (##, ###)
+
+## Deployment & Production
+
+### Build Requirements
+- All MDX files must parse correctly
+- No malformed HTML anchor tags (common in legacy posts)
+- Proper markdown link formatting: `[text](url)` not `<a href="url">text</a>`
+
+### Vercel Deployment
+- Uses `npm run build` for production builds
+- Static generation ensures fast loading
+- MDX parsing errors will fail the build
+- Check for broken HTML links before deploying
+
+### Recent Fixes (2024)
+- Consolidated work/life sections into single "Writing" section
+- Fixed malformed HTML anchor tags in legacy posts
+- Improved compact layout for better mobile experience
+- Resolved all MDX parsing errors for successful deployment

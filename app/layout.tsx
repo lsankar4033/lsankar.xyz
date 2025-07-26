@@ -18,7 +18,7 @@ const workSans = Work_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'Lakshman Sankar',
+  title: 'LSANKAR',
   description: 'Personal website and blog',
 }
 
