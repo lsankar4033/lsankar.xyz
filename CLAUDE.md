@@ -92,3 +92,43 @@ Your markdown content here...
 - All posts are pre-rendered at build time
 - TypeScript ensures type safety throughout
 - Tailwind CSS for consistent styling
+
+## Mirror.xyz Post Migration Process
+
+When migrating posts from Mirror.xyz to this blog:
+
+### MDX Conversion Best Practices
+1. **HTML to MDX**: Convert HTML content to clean MDX format
+2. **Link Preservation**: Ensure all links are properly formatted as `[text](url)`
+3. **Twitter Embeds**: Use proper Twitter blockquote format:
+   ```html
+   <blockquote class="twitter-tweet">
+     <p lang="en" dir="ltr">Tweet content</p>
+     &mdash; Author (@handle) 
+     <a href="https://twitter.com/handle/status/ID">Date</a>
+   </blockquote>
+   ```
+4. **Image Handling**: Use standard markdown image syntax `![alt](url)`
+5. **Special Characters**: Escape `<` symbols that could be parsed as JSX (use `\<` for `<10`, etc.)
+
+### Frontmatter Format
+```yaml
+---
+title: "Post Title"
+date: "YYYY-MM-DD"
+category: "work" # or "life"
+---
+```
+
+### Common Issues & Solutions
+- **MDX Parsing Errors**: Check for unescaped `<` characters
+- **Link Formatting**: Ensure all links use markdown format, not raw HTML
+- **Twitter Embeds**: Must use proper blockquote structure for rendering
+- **Date Format**: Use ISO format (YYYY-MM-DD) for consistent sorting
+
+### Content Processing
+- Remove any Mirror.xyz specific styling/components
+- Clean up excessive HTML wrapper elements
+- Preserve emphasis (`*italic*`, `**bold**`) and code blocks
+- Convert HTML lists to markdown format
+- Maintain proper heading hierarchy (##, ###)
