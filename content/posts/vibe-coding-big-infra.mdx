@@ -1,0 +1,59 @@
+---
+title: "vibe coding big infra"
+date: "2025-07-27"
+
+---
+
+I've been working on a new project that requires relatively scaled data infrastructure. Nothing too crazy, probably 10s of thousands of QPS at peak, but large enough that sloppy thinking and technical debt can't be allowed to accumulate. Any small bug or incongruity in thinking would have cascading effects that take days to weed out.
+
+It's in production, with coherent monitoring/logging and I make nontrivial changes to the system every few days. 
+
+And I'd say 50-75% of the code by LOC is vibe coded.
+
+This stat often raises eyebrows, so I thought it'd be valuable to dig into a few principles that drive my work style.
+
+## isolation-enabled iteration
+
+I figured early on that the more often I could integrate LLM-generated code into my system without tech debt anxiety, the faster I could move overall. 
+
+This led me to structure my system around strict isolation with little to no shared state. Each process is essentially a [referentially transparent](https://en.wikipedia.org/wiki/Referential_transparency) closure and communication between processes happens entirely via messaging. The entire system is an interlocking network of single-responsibility [actors](https://en.wikipedia.org/wiki/Actor_model). 
+
+This approach to computing isn't new, but I've found that 'maxing out' on the principle of single-responsibility actors has had compounding effects on my speed.
+
+Communicating with the LLM happens in the context of this programming model and I can rely on the LLM to spin up multi-job components all on its own without interfering with existing parts of the system.  As long as the core architecture retains its structure, any technical debt or sloppiness in thinking is contained within simple, easy to modify jobs. 
+
+By isolation-maxing, I can have the LLM drop in experimental jobs while I go on a hike and rip them out just as easily if they don't work out.
+
+## idempotence over persistence
+
+Of course, perfect isolation breaks down at the persistence layer. I keep these touchpoints minimal - just an analytics database and a log store for data auditing.
+
+The key: every operation on persisted data must be [idempotent](https://en.wikipedia.org/wiki/Idempotence). I define these operations upfront - increments that can't double-count, upserts instead of inserts, state transitions that are order-independent.
+
+This constraint means LLM-generated jobs can hammer the same data without corrupting it. It's required upfront design work, but the payoff has been huge so far: I can let the LLM spawn new jobs without worrying about race conditions or conflicting writes.
+
+## yapping architecture
+
+Something I'm getting in the habit of more as I integrate more tightly with LLMs is speaking in the language of architecture when making any change. I find that over time, the LLM's context contains my full mental model of the architecture and can be trusted to refactor the entire system to adhere to a new principle if necessary.
+
+Recently, I realized a set of communication lines I'd originally designed as pubsub topics would be better designed as retry-able job queues. Because the LLM had architectural context, I was able to trust it to make this change entirely with minimal review from me. 
+
+The more I communicate with the LLM as an architecture design partner, the more able it is to make large changes freely.
+
+## riding the model 'seniority' wave
+
+A meta mental model I've adopted for interacting with LLMs is as an engineer whose seniority is gradually increasing.
+
+Today, it's an intensely productive, but quite junior engineer. As model reasoning improves, I expect its seniority to improve as well. 
+
+Seniority in engineering implies ability to understand consequences of large-scale architectural changes without handholding. I expect that I'll need to provide less context to the LLM and just communicate in higher level engineering ideas over time.
+
+Eventually, of course, the LLM engineer will outrank me in engineering seniority! I can't wait to see what it's like to truly 'hand a system off' to the LLM to manage.
+
+## onwards
+
+In conclusion, it's a good time to be at the frontier of LLM-human interfacing as an engineer. 
+
+The opportunities for increased leverage are large and simple principles (isolation, idempotence) allow one to take advantage without too much anxiety. 
+
+These principles have been useful for me (at scale!) so far; I'm curious to see what habits persist as models get smarter.
