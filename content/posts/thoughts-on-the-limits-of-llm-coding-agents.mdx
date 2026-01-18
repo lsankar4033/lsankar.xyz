@@ -1,0 +1,135 @@
+---
+title: "thoughts on the limits of LLM coding agents"
+date: "2026-01-18"
+---
+
+> Programs must be written for people to read, and only incidentally for machines to execute.
+>
+> -- Sussman+Abelson, Preface of [Structure and Interpretation of Computer Programs](https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs)
+
+I've been meditating on this as my interaction loop with LLMs for generating programs has become tighter. It's one of those statements that seems trite and oversimplified until it doesn't. I've been doing this programming thing for 15+ years and I think the depth of the point is only just sinking in.
+
+For anyone doing serious programming, i.e. creating systems that interact with a changing world for longer than a single session, building programs isn't just about making the computer do something once.
+
+It's about mapping a subset of the real world to a domain-specific language that the programmer (or organization of programmers) can operate/mutate as the real world changes. And the real world constantly changes.
+
+This realization has shown me where the bottleneck in LLM coding agent productivity really is.
+
+Even though LLMs are great at producing code that does something correct once, **speaking a precise and changing domain language consistently in the wake of a changing world seems out of their scope.**
+
+As a human programmer, this is where I still spend most of my energy.
+
+### talking (code) to yourself
+
+A subtle misinterpretation of the Abelson+Sussman quote is that a programmer must write programs only for other people to read. I believe that even for the solo programmer, programs are primarily a human to (same) human communication mechanism.
+
+As a programmer works on a problem for a long period of time, the program serves as a journal of his/her understanding of the structure that can be easily returned to. No programmer has perfect memory; the program compresses such that he/she can return to operating them in a way that is tractable.
+
+One of the worst version of the no-code hype of 2024-2025 was the notion that sloppy bits of prose (non-technical design docs?) could replace programs as the input to producing working systems. [Lovable](https://lovable.dev/) for everything.
+
+This is nonsense. Anyone who's been around for a while remembers the multiple times we've tried replacing programming with something 'simpler.' The [scratch](<https://en.wikipedia.org/wiki/Scratch_(programming_language)>) programming language comes to mind.
+
+These things can help in learning the basics of structuring programs, but the reality is that in hiding the complexity of building real programs, they limit the complexity that can be expressed by the programmer.
+
+This is a fundamental problem: **real world problems are always more complex than they initially seem**. [Dunning-Kruger](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect) leads us all to believe that we understand problems clearly at the outset, but serious real world programming is as much a process of discovery as expression.
+
+Prose software specs/design docs are always fuzzy. They require the more precise language of code to hammer out the details. And the coding languages we've developed over the years turn out to be quite good at expressing the necessary complexity without unnecessary cruft.
+
+**The dream that humans will be using prose to create all useful programs in the future is as silly to me as the notion that every shower thought is a great business.**
+
+Only through building the program (in languages that allow full expressivity) does one touch and understand the complexity of the problem as it exists in reality.
+
+### reading the hype
+
+I'm fascinated by internet culture and have been thinking about why there's been such an explosion of hype around LLM coding agents in last the few weeks. On X, everyone seems to have discovered fire at the same time.
+
+I think this recent wave of excitement originated with Boris Cherny's (creator of Claude Code) post showing off just how much code he's producing with Claude Code:
+
+<blockquote class="twitter-tweet">
+  <p lang="en" dir="ltr">
+    <a href="https://x.com/bcherny/status/2004887829252317325">
+      When I created Claude Code as a side project back in September 2024, I had
+      no idea it would grow to be what it is today...
+      <br />
+      In the last thirty days, I landed 259 PRs -- 497 commits, 40k lines added,
+      38k lines removed. Every single line was written by Claude Code + Opus
+      4.5...
+    </a>
+  </p>
+  &mdash; Boris Cherny (<a href="https://x.com/bcherny">@bcherny</a>)
+</blockquote>
+
+The numbers seem staggering. In 30 days, 259 PRs, 497 commits, ~40k lines added, ~40k lines removed, all written by the LLM.
+
+Forget the fact that these are clearly vanity metrics, not necessarily correlated with how much impact the code had on reality, they're **huge**! Fomo-inducing, really. Every person involved in making software suffers from some amount of imposter syndrome and seeing these numbers sent me into a bit of a tailspin bemoaning my own lack of productivity.
+
+Unsurprisingly, this post has absurd engagement:
+
+- \> 20K likes
+- \> 2.4k RTs
+- \> 4.4m views
+
+I'm sure you see where I'm going with this. It doesn't take that big of a tinfoil hat to see his post (and ensuing podcast tour) for what it is: a masterclass of viral growth marketing.
+
+**FOMO (and fear more generally) are one of the most effective tools Silicon Valley has used for enterprise tech adoption for decades.**
+
+And Anthropic is engaging in a fomo-based blitzkrieg to win the AI coding tool war.
+
+Cherny+Anthropic lit a fire of X hype. Every founder/VC type on my timeline seems to have been talking about how amazing Claude Code et al are for writing the future and how quickly everything seems to be changing all at once.
+
+As I see it, every case falls into 2 categories:
+
+- shilling
+- signaling
+
+#### shilling
+
+At this point I'm as grizzled a veteran of crypto as anyone and I know shilling when I see it.
+
+The simple reality is all of the X-inhabiting tech literati are in some way exposed to the overleveraged AI sector.
+
+And [recent Wall Street skepticism](https://archive.is/ebGbx) has everyone spooked. A run on the datacenter-buildout-bank would be catastrophic.
+
+It's a (crypto) tale as old as time: in the wake of FUD, X shills.
+
+Without Wall Street and public sentiment, OpenAI and Anthropic won't be able to successfully IPO this year, and the bubble must let out some air. Silicon Valley has been able induce FOMO in these parties to keep bubbles alive in the past and I don't see why the same wouldn't be happening now.
+
+I should note btw, that I'm not anti-bubble. If anything I'm shamefully pro-bubble. I'm a student of [Carlota Perez](https://en.wikipedia.org/wiki/Technological_Revolutions_and_Financial_Capital) in that I believe that financial bubbles go hand in hand with technological development (and I am shamefully pro-technology).
+
+#### signaling
+
+Signaling is subtler.
+
+As humans, we're evolutionarily programmed to seek acceptance by other humans. We want to be seen as adhering to the values of the communities we respect and we act to signal that we do.
+
+The tech industry prizes intelligence, prescience, and industry. You want to seem smart, diligent, and more prepared for the changing future than the next guy/gal to your (perceived) superiors.
+
+So tech X needs to constantly signal to itself that it's ahead of the curve and has 'seen the future'.
+
+Whether in the form of posting a screenshot of 20 claude code agents building your business empire in parallel (lol) or reposting/liking the posts from people you respect who are.
+
+FWIW, I crave fitting in as much as anyone (I actually think I'm particularly sensitive to memetic desires). But that doesn't mean I can't see it for what it is.
+
+### what coding LLMs are useful for
+
+I want to end this meditation by gassing up LLM coding agents for what they are _actually_ good at. Maybe I can get ahead of the midwits who will just classify me as an AI skeptic and move on with their day.
+
+The truth is, LLMs have become an indispensable part of my workflow and I already couldn't easily extricate them if I wanted to.
+
+And not only are they incredibly useful, I'm truly enjoying the process of discovering how to work with this tool. I've found a newfound thirst to improve my ability to write good prose and build an understanding dialectically of what an agent 'thinks.'
+
+I'm having a tremendous amount of _fun_ programming with them.
+
+While I'm not one-shotting anything meaningful nor am I even accepting any AI-submitted code without review any line yet, there are a few things that I've mostly delegated to AI:
+
+- researching methodologies in open source codebases I admire
+- generating code jumping off points or tradeoff matrices when brainstorming
+- generating 'first-pass' snippets of code (that I then need to refactor/restructure into reusable DSLs)
+- generating tests (once I've structured modules well!)
+- one-off translation/migration/scripting tasks that don't need much thought/maintenance
+
+In fact, getting the text of this post onto the site you're now reading on was primarily done by Claude.
+
+They're a remarkable and extremely accessible index over all publicly available knowledge about things I might need to do. They're as big of a jump in the UX of accessing information from the search engine as the search engine was from the library.
+
+But as soon as I need to do original thinking around how to structure the way I interact with a problem, it's not much better than StackOverflow was at doing it for me.

@@ -12,7 +12,9 @@
       "Bash(cat:*)",
       "Bash(true)",
       "WebFetch(domain:ls.mirror.xyz)",
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "mcp__acp__Write",
+      "mcp__acp__Edit"
     ],
     "deny": []
   }
